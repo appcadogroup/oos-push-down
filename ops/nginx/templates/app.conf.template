@@ -1,0 +1,33 @@
+server {
+  listen 80;
+  server_name ${APP_HOST};
+
+  location ^~ /.well-known/acme-challenge/ {
+    root /var/www/certbot;
+  }
+
+  return 301 https://$host$request_uri;
+}
+
+server {
+  listen 443 ssl;
+  http2 on;
+  server_name ${APP_HOST};
+
+  ssl_certificate     /etc/letsencrypt/live/${APP_HOST}/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/${APP_HOST}/privkey.pem;
+
+  location ^~ /.well-known/acme-challenge/ { root /var/www/certbot; }
+
+  location /api/ {
+    proxy_pass http://backend:3012/;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+  }
+
+  location / {
+    proxy_pass http://frontend:3011;
+    proxy_set_header Host $host;
+    proxy_set_header X-Forwarded-Proto $scheme;
+  }
+}
