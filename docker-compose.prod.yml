@@ -70,9 +70,9 @@ services:
     env_file: .env.prod
     command: >
       "certbot certonly --non-interactive --agree-tos
-      --email ${LETSENCRYPT_EMAIL}
+      --email appcadogroup@gmail.com
       --webroot -w /var/www/certbot
-      -d ${APP_HOST}
+      -d push-down-and-hide-out-of-stock.sincoeec.com
       --rsa-key-size 4096
       && echo 'Certificates obtained'"
 
