@@ -8,7 +8,7 @@ COPY packages/redis/package.json packages/redis/
 COPY packages/core/package.json packages/core/
 COPY packages/db/prisma packages/db/prisma
 
-RUN NODE_ENV=production npm install --workspaces
+RUN npm install --workspaces
 
 # Copy source
 COPY . .

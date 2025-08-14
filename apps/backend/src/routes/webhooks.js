@@ -11,7 +11,7 @@ const appLogger = getLogger('webhooks/apps');
 
 router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
     const payload = req.body;
-    const { topic, webhookId, domain = 'advanced-collection-sort.myshopify.com' } = req.webhooks;
+    const { topic, webhookId, domain } = req.webhooks;
     try {
         const admin = await getAuthenticatedAdmin(domain);
         const handler = new ProductWebhookHandler({ payload, shop: domain, admin });
@@ -33,7 +33,7 @@ router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, asyn
 
 router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
     const payload = req.body;
-    const { topic, webhookId, domain = 'advanced-collection-sort.myshopify.com' } = req.webhooks;
+    const { topic, webhookId, domain } = req.webhooks;
     try {
         const admin = await getAuthenticatedAdmin(domain);
         const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
@@ -55,7 +55,7 @@ router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, a
 
 router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
     const payload = req.body;
-    const { topic, webhookId, domain = 'advanced-collection-sort.myshopify.com' } = req.webhooks;
+    const { topic, webhookId, domain } = req.webhooks;
     try {
         const admin = await getAuthenticatedAdmin(domain);
         const handler = new BulkOperationWebhookHandler({ payload, shop: domain, admin });
@@ -77,7 +77,7 @@ router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhoo
 
 router.post('/apps', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
     const payload = req.body;
-    const { topic, webhookId, domain = 'advanced-collection-sort.myshopify.com' } = req.webhooks;
+    const { topic, webhookId, domain } = req.webhooks;
     try {
         const admin = await getAuthenticatedAdmin(domain);
         const handler = new AppWebhookHandler({ payload, shop: domain, admin });
