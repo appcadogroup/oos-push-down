@@ -34,23 +34,23 @@ router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, asyn
 router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
-    try {
-        const admin = await getAuthenticatedAdmin(domain);
-        const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
-        collectionLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
-        await handler.handle(topic);
+    // try {
+    const admin = await getAuthenticatedAdmin(domain);
+    const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
+    collectionLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
+    await handler.handle(topic);
 
-        res.status(200).json({
-            status: 'success',
-            data: payload,
-        });
-    } catch (error) {
-        collectionLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
-        res.status(500).json({
-            status: 'error',
-            error: 'Failed to process webhook -> Internal Server Error',
-        });
-    }
+    res.status(200).json({
+        status: 'success',
+        data: payload,
+    });
+    // } catch (error) {
+    //     collectionLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
+    //     res.status(500).json({
+    //         status: 'error',
+    //         error: 'Failed to process webhook -> Internal Server Error',
+    //     });
+    // }
 });
 
 router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
