@@ -2,7 +2,8 @@ node_modules
 
 /.cache
 /build
-/app/build
+/apps/frontend/build
+/apps/backend/dist
 /public/build/
 /public/_dev
 /app/public/build
@@ -24,3 +25,5 @@ docker-compose.dev.yml
 
 
 /logs/
+
+/dist

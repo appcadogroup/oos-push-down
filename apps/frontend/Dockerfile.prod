@@ -12,14 +12,18 @@ COPY packages/core/package.json packages/core/
 COPY packages/db/prisma packages/db/prisma
 
 RUN npm install --workspaces
-RUN npm run -w apps/backend build
 
-# Copy source
+# copy sources (includes vite.config.ts)
 COPY . .
+
 
 # Ensure Prisma client exists
 RUN npm run -w packages/db prisma:generate
 
+# 👇 run build from the app dir so cwd is correct
+WORKDIR /app/apps/frontend
+RUN npm run build
+
 ENV PORT=3011
 EXPOSE 3011
-CMD ["remix-serve", "apps/frontend/build/server/index.js"]
+CMD ["npm", "run", "start"]

@@ -12,7 +12,7 @@ services:
     build:
       context: .
       dockerfile: apps/backend/Dockerfile.prod
-    env_file: ./apps/backend/.env.production
+    env_file: .env.prod
     depends_on:
       migrate:
         condition: service_completed_successfully
@@ -21,7 +21,7 @@ services:
     build:
       context: .
       dockerfile: apps/frontend/Dockerfile.prod
-    env_file: ./apps/frontend/.env.production
+    env_file: .env.prod
     depends_on:
       backend:
         condition: service_started

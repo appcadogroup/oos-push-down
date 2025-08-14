@@ -35,7 +35,7 @@ if (host === "localhost") {
   hmrConfig = {
     protocol: "wss",
     host: host,
-    port: parseInt(process.env.FRONTEND_PORT) || 8002,
+    port: parseInt(process.env.PORT) || 8002,
     clientPort: 443,
   };
 }
@@ -46,7 +46,7 @@ export default defineConfig({
     hmr: hmrConfig,
     fs: {
       // See https://vitejs.dev/config/server-options.html#server-fs-allow for more information
-      allow: ["app", "node_modules", "./packages/*"],
+      allow: ["app", "node_modules", "../../packages/*"],
     },
   },
   plugins: [

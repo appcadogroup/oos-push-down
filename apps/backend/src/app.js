@@ -47,7 +47,7 @@ export async function getAuthenticatedAdmin(domain) {
 
 
 import routes from "./routes/index.js";
-app.use('/api', routes);
+app.use('/', routes);
 
 
 app.use(express.json());
