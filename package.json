@@ -1,0 +1,19 @@
+{
+  "name": "acme",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": ["apps/*", "apps/frontend/extensions/*", "packages/*"],
+  "scripts": {
+    "dev:backend": "npm run -w apps/backend dev",
+    "dev:frontend": "npm run -w apps/frontend dev -- --tunnel-url='https://ricotse.ngrok.dev:3011' --path ./",
+    "db:generate": "npm run -w packages/db prisma:generate",
+    "db:migrate": "npm run -w packages/db migrate:dev",
+    "build": "npm run -w apps/backend build && npm run -w apps/frontend build",
+    "install:all": "npm install --workspaces"
+  },
+  "overrides": {
+    "@shopify/shopify-api": "^11.14.1",
+    "@shopify/shopify-app-session-storage-prisma": "^6.0.9"
+  }
+}

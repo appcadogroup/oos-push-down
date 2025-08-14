@@ -1,0 +1,21 @@
+{
+  "name": "@acme/core",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./server": "./server.server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@acme/db": "1.0.0",
+    "@acme/redis": "1.0.0",
+    "bullmq": "^5.56.9",
+    "dotenv": "^17.2.1",
+    "winston": "^3.17.0"
+  }
+}

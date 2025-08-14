@@ -1,0 +1,73 @@
+services:
+  # Run migrations once, then exit successfully.
+  migrate:
+    build:
+      context: .
+      dockerfile: apps/backend/Dockerfile.prod
+    env_file: apps/backend/.env.production
+    command: ["npm","run","-w","packages/db","migrate:deploy"]
+    restart: "no"
+
+  backend:
+    build:
+      context: .
+      dockerfile: apps/backend/Dockerfile.prod
+    env_file: ./apps/backend/.env.production
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  frontend:
+    build:
+      context: .
+      dockerfile: apps/frontend/Dockerfile.prod
+    env_file: ./apps/frontend/.env.production
+    depends_on:
+      backend:
+        condition: service_started
+
+  # TLS terminator + reverse proxy
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./ops/nginx/conf.d:/etc/nginx/conf.d:ro
+      - letsencrypt:/etc/letsencrypt
+      - certbot-webroot:/var/www/certbot
+    depends_on:
+      frontend:
+        condition: service_started
+      backend:
+        condition: service_started
+
+  # One-shot certificate issuance (run this once per domain)
+  certbot-init:
+    image: certbot/certbot:latest
+    volumes:
+      - letsencrypt:/etc/letsencrypt
+      - certbot-webroot:/var/www/certbot
+    entrypoint: ["/bin/sh","-lc"]
+    command: >
+      "certbot certonly --non-interactive --agree-tos
+      --email ${LETSENCRYPT_EMAIL}
+      --webroot -w /var/www/certbot
+      -d ${APP_HOST}
+      --rsa-key-size 4096
+      && echo 'Certificates obtained'"
+
+  # Manual/cron-style renew runner (run when you want to renew; see section 4)
+  certbot-renew:
+    image: certbot/certbot:latest
+    volumes:
+      - letsencrypt:/etc/letsencrypt
+      - certbot-webroot:/var/www/certbot
+    entrypoint: ["/bin/sh","-lc"]
+    command: >
+      "certbot renew --webroot -w /var/www/certbot --quiet
+      && echo 'Renewed. Reload nginx on host: docker compose -f docker-compose.prod.yml exec nginx nginx -s reload'"
+
+volumes:
+  letsencrypt:
+  certbot-webroot:

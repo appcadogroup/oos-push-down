@@ -1,0 +1,15 @@
+{
+  "name": "@acme/redis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./client.sever.js",
+  "exports": {
+    ".": {
+      "default": "./client.server.js"
+    }
+  },
+  "dependencies": {
+    
+  }
+}

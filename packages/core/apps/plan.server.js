@@ -1,0 +1,11 @@
+export const FREE_PLAN = 'Free subscription';
+export const STARTER_PLAN = 'Starter subscription';
+export const PROFESSIONAL_PLAN = 'Professional subscription';
+export const BUSINESS_PLAN = 'Business subscription';
+export const ADVANCED_PLAN = 'Advanced subscription';
+export const ENTERPRISE_PLAN = 'Enterprise subscription';
+export const ANNUAL_STARTER_PLAN = 'Annual Starter subscription';
+export const ANNUAL_PROFESSIONAL_PLAN = 'Annual Professional subscription';
+export const ANNUAL_BUSINESS_PLAN = 'Annual Business subscription';
+export const ANNUAL_ADVANCED_PLAN = 'Annual Advanced subscription';
+export const ANNUAL_ENTERPRISE_PLAN = 'Annual Enterprise subscription';

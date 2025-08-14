@@ -1,0 +1,225 @@
+generator client {
+  provider = "prisma-client-js"
+  // output   = "./generated"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Session {
+  id            String    @id
+  shop          String
+  state         String
+  isOnline      Boolean   @default(false)
+  scope         String?
+  accessToken   String
+  expires       DateTime?
+  userId        BigInt?
+  firstName     String?
+  lastName      String?
+  email         String?
+  accountOwner  Boolean   @default(false)
+  locale        String?
+  collaborator  Boolean?  @default(false)
+  emailVerified Boolean?  @default(false)
+}
+
+model Merchant {
+  id                 Int     @id @default(autoincrement())
+  shop               String  @unique
+  shopID             BigInt?
+  activePlan         String  @default("Free Subscription")
+  timezone           String?
+  // Operation
+  isCollectionSynced Boolean @default(false)
+  collectionCount    Int     @default(0) // Done
+  productCount       Int     @default(0) // Done
+
+  // Out of Stock
+  OOSSortOrder         OOSSortOrder @default(PRIMARY_ORDER) // Done
+  autoEnableCollection Boolean      @default(false) // Done
+  continueSellingAsOOS Boolean      @default(false) // Done
+
+  // Tag OOS Product
+  tagOOSProduct Boolean @default(false)
+  OOSProductTag String?
+
+  // Exclusion Push Down
+  excludePushDown     Boolean @default(false)
+  excludePushDownTags Json    @default("[]")
+
+  // Hide/Show OOS
+  enableHiding    Boolean       @default(false)
+  hideAfterDays   Int           @default(0)
+  hidingChannel   HidingChannel @default(ONLINE_STORE)
+  republishHidden Boolean       @default(false)
+
+  // Tag Hidden Product
+  tagHiddenProduct Boolean @default(false)
+  hiddenProductTag String?
+
+  // Exclusion Hidden
+  excludeHiding   Boolean @default(false)
+  excludeHideTags Json    @default("[]")
+
+  // Only watching specific Locations
+  selectedLocations Json @default("[]")
+  
+  products       Product[]
+  collections    Collection[]
+  bulkOperations BulkOperation[]
+  publications   Publication[]
+  Subscription   Subscription?
+  locations       Location[]
+}
+
+model Subscription {
+  shop               String    @id
+  merchant           Merchant  @relation(fields: [shop], references: [shop], onDelete: Cascade)
+  subscriptionID     BigInt?
+  name               String
+  status             String
+  interval           String?
+  trialDays          Int?
+  trialEnd           DateTime?
+  currentPeriodEnd   DateTime?
+  currentPeriodStart DateTime?
+  createdAt          DateTime
+  updatedAt          DateTime
+}
+
+model Product {
+  productID             BigInt        @id
+  title                 String
+  handle                String
+  status                ProductStatus
+  createdAt             DateTime
+  updatedAt             DateTime
+  publishedAt           DateTime?
+  variantsCount         Int           @default(0)
+  hasOutOfStockVariants Boolean       @default(false)
+  hasContinueSelling    Boolean       @default(false)
+
+  OOS          Boolean   @default(false)
+  OOSAt        DateTime?
+  pushedDown   Boolean   @default(false)
+  pushedDownAt DateTime?
+
+  hiddenAt        DateTime?
+  scheduledHidden DateTime?
+  tags            Json      @default("[]")
+  merchant        Merchant  @relation(fields: [shop], references: [shop], onDelete: Cascade)
+  shop            String
+}
+
+model Collection {
+  title          String
+  handle         String
+  isActive       Boolean            @default(false)
+  updatedAt      DateTime
+  lastRunAt      DateTime?
+  currentSorting CollectionSorting?
+  collectionID   BigInt             @id
+  OOSCount       Int?
+  productsCount  Int?
+
+  // CollectionOutOfStockProduct CollectionOutOfStockProduct[]
+  merchant Merchant @relation(fields: [shop], references: [shop], onDelete: Cascade)
+  shop     String
+}
+
+model Publication {
+  publicationID BigInt   @id
+  title         String
+  merchant      Merchant @relation(fields: [shop], references: [shop], onDelete: Cascade)
+  shop          String
+}
+
+model Location {
+  locationID BigInt   @id
+  name       String
+  active     Boolean
+  merchant   Merchant @relation(fields: [shop], references: [shop], onDelete: Cascade)
+  shop       String
+}
+
+model BulkOperation {
+  id          Int                     @id @default(autoincrement())
+  operationID BigInt                  @unique
+  createdAt   DateTime                @default(now())
+  action      BulkOperationAction
+  status      BulkOperationStatus
+  errorCode   BulkOperationErrorCode?
+  jobData     Json?
+  completedAt DateTime?
+  objectCount Int?
+  merchant    Merchant                @relation(fields: [shop], references: [shop], onDelete: Cascade)
+  shop        String
+}
+
+enum CollectionSorting {
+  ALPHA_ASC
+  ALPHA_DESC
+  BEST_SELLING
+  CREATED
+  CREATED_DESC
+  MANUAL
+  PRICE_ASC
+  PRICE_DESC
+}
+
+model PendingJob {
+  id             Int      @id @default(autoincrement())
+  shopId         String
+  collectionData Json
+  status         String   @default("pending") // "pending", "processing", "completed"
+  createdAt      DateTime @default(now())
+}
+
+enum ProductStatus {
+  ACTIVE
+  ARCHIVED
+  DRAFT
+}
+
+enum BulkOperationAction {
+  PUSH_DOWN
+  SYNC_COLLECTIONS
+  SYNC_PRODUCTS
+}
+
+enum BulkOperationErrorCode {
+  ACCESS_DENIED
+  INTERNAL_SERVER_ERROR
+  TIMEOUT
+}
+
+enum BulkOperationStatus {
+  CANCELED
+  COMPLETED
+  CREATED
+  EXPIRED
+  FAILED
+  RUNNING
+  PENDING
+}
+
+enum OOSSortOrder {
+  PRIMARY_ORDER
+  NEWEST_AT_TOP
+}
+
+enum HidingChannel {
+  ONLINE_STORE
+  ALL
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  CANCELLED
+  DECLINED
+  EXPIRED
+  FROZEN
+}

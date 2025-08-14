@@ -1,0 +1,42 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "b6f20808acb301e871febc0e55cf31ff"
+application_url = "https://ricotse.ngrok.dev"
+embedded = true
+name = "Advanced Collection Sort - Dev"
+handle = "advanced-collection-sort-dev"
+
+[webhooks]
+api_version = "2025-04"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app_subscriptions/update", "app/scopes_update", "app/uninstalled" ]
+  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/apps"
+  compliance_topics = [ "customers/data_request", "customers/redact", "shop/redact" ]
+
+  [[webhooks.subscriptions]]
+  topics = [ "collections/create", "collections/update", "collections/delete" ]
+  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/collections"
+
+  [[webhooks.subscriptions]]
+  topics = [ "bulk_operations/finish" ]
+  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/bulk-operations"
+
+  [[webhooks.subscriptions]]
+  topics = [ "products/create", "products/update", "products/delete" ]
+  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/products"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products,read_inventory,write_publications,read_product_listings,read_locations"
+
+[auth]
+redirect_urls = ["https://ricotse.ngrok.dev/auth/callback", "https://ricotse.ngrok.dev/auth/shopify/callback", "https://ricotse.ngrok.dev/api/auth/callback"]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "advanced-collection-sort.myshopify.com"
+include_config_on_deploy = true
+automatically_update_urls_on_dev = false

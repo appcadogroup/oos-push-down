@@ -1,0 +1,69 @@
+# # ---- build ----
+# FROM node:22-alpine AS build
+# WORKDIR /opt
+
+# # Copy manifests first (cache)
+# COPY shared/package*.json shared/
+# COPY remix/package*.json remix/
+
+# # Install app deps (@prisma/client included)
+# WORKDIR /opt/remix
+# RUN npm install --omit=dev
+
+# # Copy sources
+# WORKDIR /opt
+# COPY shared ./shared
+# COPY remix ./remix
+
+# # Generate Prisma Client (uses shared schema)
+# WORKDIR /opt/remix
+# RUN npx prisma generate --schema ../shared/prisma/schema.prisma
+
+# RUN echo "---- /opt/remix ----" && ls -la /opt/remix && echo "---- /opt/remix/app ----" && ls -la /opt/remix/app || true
+
+# # Build the app
+# RUN npm run build
+
+# # ---- runtime ----
+# FROM node:22-alpine
+# ENV NODE_ENV=production
+
+# # bring both backend and shared so ../shared/... resolves
+# WORKDIR /opt
+# COPY --from=build /opt/shared ./shared
+# COPY --from=build /opt/remix ./remix
+
+# WORKDIR /opt/remix
+# COPY --from=build /opt/remix ./
+# EXPOSE 3011
+# HEALTHCHECK --interval=10s --timeout=3s --retries=30 CMD wget -qO- http://localhost:3011/healthz || exit 1
+# CMD ["npm","run","docker-start","--","--hostname","0.0.0.0","--port","3011"]
+
+
+FROM node:22-alpine
+WORKDIR /app
+
+# Copy manifests first for better caching
+COPY package.json ./
+COPY apps/frontend/package.json apps/frontend/
+COPY packages/db/package.json packages/db/
+COPY packages/redis/package.json packages/redis/
+COPY packages/core/package.json packages/core/
+
+# copy prisma schema early so postinstall can find it
+COPY packages/db/prisma packages/db/prisma
+
+RUN npm install --workspaces --include=dev
+
+# Copy source
+COPY . .
+
+# Ensure Prisma client exists
+RUN npm run -w packages/db prisma:generate
+
+RUN npm install -g @shopify/cli@latest
+
+
+ENV PORT=3011
+EXPOSE 3011
+CMD ["npm","run","dev:frontend"]

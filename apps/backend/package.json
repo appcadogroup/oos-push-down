@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js",
+    "dev": "nodemon server.js",
+    "build": "babel src --out-dir dist --extensions .js,.jsx,.ts,.tsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@acme/core": "1.0.0",
+    "@acme/db": "1.0.0",
+    "@acme/redis": "1.0.0",
+    "@shopify/shopify-api": "^11.14.1",
+    "@shopify/shopify-app-session-storage-prisma": "^6.0.9",
+    "axios": "^1.11.0",
+    "browser-or-node": "^3.0.0",
+    "bullmq": "^5.56.10",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "router": "^2.2.0"
+  }
+}

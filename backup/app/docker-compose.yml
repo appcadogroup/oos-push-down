@@ -1,0 +1,77 @@
+services:
+  # Node.js service for Shopify Remix app
+  remix-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: shopify-remix-app
+    container_name: remix_app
+    env_file:
+      - ./.env.production
+    restart: unless-stopped
+    environment:
+      - REDIS_USERNAME=default
+      - REDIS_PASSWORD=AVNS_-Fl1ebqNuwdQ0jBsqog
+      - REDIS_HOST=private-db-caching-nyc1-77651-do-user-21347744-0.f.db.ondigitalocean.com
+      - REDIS_PORT=25061
+      - REDIS_URL=rediss://default:AVNS_-Fl1ebqNuwdQ0jBsqog@private-db-caching-nyc1-77651-do-user-21347744-0.f.db.ondigitalocean.com:25061
+      - PORT=3011
+      - DATABASE_URL=postgresql://doadmin:AVNS_pzAE4hfCL9o1qtkBtkH@private-dbaas-db-10237534-do-user-21347744-0.e.db.ondigitalocean.com:25060/defaultdb?sslmode=require
+      - SHOPIFY_API_KEY=ebf36af157b9bb1e3ae0a87709b4ec7f
+      - SHOPIFY_API_SECRET=c5908cb7a9e8f0cb9d12ffc473c0bd10
+      - SHOPIFY_APP_URL=https://push-down-and-hide-out-of-stock.sincoeec.com
+      - SHOPIFY_SCOPES=read_products,write_products,read_inventory,write_publications,read_product_listings
+      - SHOPIFY_HOST=advanced-collection-sort.myshopify.com
+      - SHOPIFY_APP_HANDLE=advanced-collection-sort
+      - SHOPIFY_CLI_DEVICE_AUTH=1
+      - SHOPIFY_CLI_PARTNERS_TOKEN=atkn_ee323498fbfcb102d26f4ed7984cd1a462aeebc1eb881530aeb6f782842ffdd6  
+    expose:
+      - 3011
+    labels:
+      - "service=remix-frontend"
+      - "domain=push-down-and-hide-out-of-stock.sincoeec.com"
+    stdin_open: true # Enable interactive input
+    depends_on:
+      - consul-agent
+
+  # Register with service discovery
+  consul-agent:
+    image: consul:latest
+    container_name: remix-consul-agent
+    restart: unless-stopped
+    networks:
+      - remix-network
+      - shared-network
+    environment:
+      - CONSUL_BIND_INTERFACE=eth0
+    command: >
+      consul agent
+      -retry-join=consul
+      -bind=0.0.0.0
+      -client=0.0.0.0
+      -datacenter=dc1
+      -node=remix-frontend
+    depends_on:
+      - register-service
+
+  # Service registration
+  register-service:
+    image: consul:latest
+    container_name: remix-registrar
+    restart: "no"
+    networks:
+      - shared-network
+    command: >
+      /bin/sh -c "
+      sleep 10 &&
+      consul services register -address=remix-app -port=3011 -name=remix-frontend -id=remix-main -check-http=http://remix-app:3011/health -check-interval=10s
+      "
+    depends_on:
+      - remix-app
+
+networks:
+  remix-network:
+    name: remix-network
+    driver: bridge
+  shared-network:
+    external: true

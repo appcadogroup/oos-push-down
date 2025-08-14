@@ -1,0 +1,1427 @@
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:37 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:37 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:39 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:39 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:41 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:41 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:42 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:42 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:25 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:25 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:25 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:25 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:26 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:26 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:26 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:26 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:27 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:27 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:27 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:27 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:53 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:53 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:53 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:53 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:54 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:54 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:52 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:52 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:52 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:52 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:53 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:53 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:11 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:11 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:25:18 PM debug: Processing job: PUSH_DOWN
+{
+  "jobData": {
+    "shop": "advanced-collection-sort.myshopify.com",
+    "collectionID": 277368045626
+  }
+}
+8/13/2025, 11:25:18 PM debug: Job 1 -  create bulk operation completed
+{
+  "shop": "advanced-collection-sort.myshopify.com",
+  "collectionID": 277368045626,
+  "operationID": "4517498912826"
+}
+8/13/2025, 11:28:14 PM debug: Processing job: PUSH_DOWN
+{
+  "jobData": {
+    "shop": "advanced-collection-sort.myshopify.com",
+    "collectionID": 277368045626
+  }
+}
+8/13/2025, 11:28:14 PM debug: Job 2 -  create bulk operation completed
+{
+  "shop": "advanced-collection-sort.myshopify.com",
+  "collectionID": 277368045626,
+  "operationID": "4517504876602"
+}
+8/13/2025, 11:28:52 PM debug: Processing job: PUSH_DOWN
+{
+  "jobData": {
+    "shop": "advanced-collection-sort.myshopify.com",
+    "collectionID": 277368045626
+  }
+}
+8/13/2025, 11:28:52 PM debug: Job 3 -  create bulk operation completed
+{
+  "shop": "advanced-collection-sort.myshopify.com",
+  "collectionID": 277368045626,
+  "operationID": "4517505466426"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:13 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:13 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:13 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:13 PM error: Error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}

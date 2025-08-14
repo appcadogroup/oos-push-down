@@ -1,0 +1,1063 @@
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:34 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:37 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:27:37 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -61,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:35 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:36 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:37 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:38 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:39 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:39 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:40 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:41 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:41 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:42 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:51:42 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:24 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:25 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:25 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:26 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:26 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:27 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:27 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:51 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:52 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:53 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:53 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:57:54 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:58:11 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:14 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:14 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:14 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:14 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:15 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:15 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:15 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:16 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:16 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:16 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:17 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:17 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/11/2025, 11:59:18 PM error: Redis client error: connect ECONNREFUSED 127.0.0.1:6379
+{
+  "errno": -111,
+  "code": "ECONNREFUSED",
+  "syscall": "connect",
+  "address": "127.0.0.1",
+  "port": 6379,
+  "stack": "Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)"
+}
+8/12/2025, 2:34:51 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:51 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:52 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:52 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:34:53 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:09 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:10 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/12/2025, 2:36:11 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:12 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:13 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}
+8/13/2025, 11:54:13 PM error: Redis client error: getaddrinfo ENOTFOUND redis
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "redis",
+  "stack": "Error: getaddrinfo ENOTFOUND redis\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)"
+}

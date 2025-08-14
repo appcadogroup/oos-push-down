@@ -1,0 +1,5 @@
+export const BulkOperationAction = {
+  PUSH_DOWN: 'PUSH_DOWN',
+  SYNC_COLLECTIONS: 'SYNC_COLLECTIONS',
+  SYNC_PRODUCTS: 'SYNC_PRODUCTS'
+};

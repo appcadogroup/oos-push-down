@@ -1,0 +1,557 @@
+8/12/2025, 4:47:41 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c7924f50-7e5d-4560-852c-acd207f65cd4",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:47:35-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:47:41 PM error: Error:
+{
+  "error": {},
+  "webhookId": "43b46498-52fc-4919-bdf3-8746aa48de07",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:47:34-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:47:43 PM error: Error:
+{
+  "error": {},
+  "webhookId": "43b46498-52fc-4919-bdf3-8746aa48de07",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:47:34-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:47:43 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c7924f50-7e5d-4560-852c-acd207f65cd4",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:47:35-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:48:25 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c255b1c9-be76-45c7-979f-27f5241e5873",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T06:48:19-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:48:44 PM error: Error:
+{
+  "error": {},
+  "webhookId": "43b46498-52fc-4919-bdf3-8746aa48de07",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:47:34-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:48:44 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c7924f50-7e5d-4560-852c-acd207f65cd4",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:47:35-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:50:12 PM error: Error:
+{
+  "error": {},
+  "webhookId": "df18e7fe-87c3-4120-b883-c97f7e083be5",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T06:50:05-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:50:44 PM error: Error:
+{
+  "error": {},
+  "webhookId": "43b46498-52fc-4919-bdf3-8746aa48de07",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:47:34-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:50:44 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c7924f50-7e5d-4560-852c-acd207f65cd4",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:47:35-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:55:27 PM error: Error:
+{
+  "error": {},
+  "webhookId": "2849ba8d-1930-4459-b6ec-2609eb2878b0",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:55:26-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:55:28 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c482b466-b3a7-4ed5-8577-1ad208f5f293",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:55:27-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:55:28 PM error: Error:
+{
+  "error": {},
+  "webhookId": "2849ba8d-1930-4459-b6ec-2609eb2878b0",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:55:26-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:55:29 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c482b466-b3a7-4ed5-8577-1ad208f5f293",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:55:27-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:55:45 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c7924f50-7e5d-4560-852c-acd207f65cd4",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:47:35-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:55:45 PM error: Error:
+{
+  "error": {},
+  "webhookId": "43b46498-52fc-4919-bdf3-8746aa48de07",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:47:34-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:56:29 PM error: Error:
+{
+  "error": {},
+  "webhookId": "2849ba8d-1930-4459-b6ec-2609eb2878b0",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:55:26-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:56:30 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c482b466-b3a7-4ed5-8577-1ad208f5f293",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:55:27-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:56:57 PM error: Error:
+{
+  "error": {},
+  "webhookId": "f493ddcc-cdf8-428d-8147-c92ba796f2ad",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:56:56-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:56:59 PM error: Error:
+{
+  "error": {},
+  "webhookId": "f493ddcc-cdf8-428d-8147-c92ba796f2ad",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:56:56-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:57:59 PM error: Error:
+{
+  "error": {},
+  "webhookId": "f493ddcc-cdf8-428d-8147-c92ba796f2ad",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:56:56-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:58:11 PM error: Error:
+{
+  "error": {},
+  "webhookId": "b0223bbf-9ed1-4168-8482-677e7d71f14a",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T06:58:02-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/12/2025, 4:58:30 PM error: Error:
+{
+  "error": {},
+  "webhookId": "2849ba8d-1930-4459-b6ec-2609eb2878b0",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277367783482,
+    "handle": "push-down-out-of-stock",
+    "title": "Push Down Out of Stock - Best Selling",
+    "updated_at": "2025-08-12T08:55:26-12:00",
+    "body_html": "",
+    "published_at": "2025-01-12T16:04:33-12:00",
+    "sort_order": "manual",
+    "template_suffix": "",
+    "disjunctive": true,
+    "rules": [
+      {
+        "column": "variant_inventory",
+        "relation": "greater_than",
+        "condition": "0"
+      },
+      {
+        "column": "variant_inventory",
+        "relation": "equals",
+        "condition": "0"
+      }
+    ],
+    "published_scope": "global",
+    "admin_graphql_api_id": "gid://shopify/Collection/277367783482"
+  }
+}
+8/12/2025, 4:58:30 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c482b466-b3a7-4ed5-8577-1ad208f5f293",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "id": 277359525946,
+    "handle": "hydrogen",
+    "title": "Hydrogen 2 5",
+    "updated_at": "2025-08-12T08:55:27-12:00",
+    "body_html": "",
+    "published_at": "2025-01-11T16:30:55-12:00",
+    "sort_order": "manual",
+    "template_suffix": "depict",
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/277359525946"
+  }
+}
+8/13/2025, 11:01:42 PM info: Webhook COLLECTIONS_UPDATE | a989f379-1549-4a89-8aed-dce76e2553e0 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:01:43 PM info: Webhook COLLECTIONS_UPDATE | 665b05f2-2691-4237-b76b-1242b9eee747 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:25:19 PM info: Webhook COLLECTIONS_UPDATE | 2a3c006e-0e91-4956-b3dd-d09161663b95 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:27:26 PM info: Webhook COLLECTIONS_UPDATE | 22854acb-5c97-439f-9c21-f0fdc1c39127 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:28:11 PM info: Webhook COLLECTIONS_UPDATE | 93ee3754-e9e1-4b02-833c-0227b7d197f9 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:28:12 PM info: Webhook COLLECTIONS_UPDATE | af1c5b39-dc29-418a-bf2a-a12ea7e45f89 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:28:29 PM info: Webhook COLLECTIONS_UPDATE | b53889f5-42d6-43dd-9e78-3ada88d133e9 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:28:53 PM info: Webhook COLLECTIONS_UPDATE | 3500e4a3-1458-4639-8a17-e2bb7caefe06 | advanced-collection-sort.myshopify.com

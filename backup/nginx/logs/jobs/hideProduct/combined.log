@@ -1,0 +1,26 @@
+8/7/2025, 1:13:46 PM info: [Processor] advanced-collection-sort.myshopify.com | 7372881264698
+8/7/2025, 1:13:46 PM debug: [Processor] Hiding product | ALL
+8/7/2025, 1:13:46 PM info: Job 67 -  Hide product completed
+8/7/2025, 1:15:52 PM info: [Processor] advanced-collection-sort.myshopify.com | 7372881264698
+8/7/2025, 1:15:52 PM debug: [Processor] Hiding product | ALL
+8/7/2025, 1:15:53 PM debug: [Processor] Updated product status to DRAFT | ALL
+{
+  "result": {
+    "product": {
+      "id": "gid://shopify/Product/7372881264698",
+      "title": "The Out of Stock Snowboard"
+    },
+    "extensions": {
+      "cost": {
+        "requestedQueryCost": 10,
+        "actualQueryCost": 10,
+        "throttleStatus": {
+          "maximumAvailable": 2000,
+          "currentlyAvailable": 1990,
+          "restoreRate": 100
+        }
+      }
+    }
+  }
+}
+8/7/2025, 1:15:53 PM info: Job 68 -  Hide product completed

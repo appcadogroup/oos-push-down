@@ -1,0 +1,2927 @@
+8/12/2025, 4:47:33 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4317415d-a92d-471c-84f8-1d53a0caa18a",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:31-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:47:40 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4317415d-a92d-471c-84f8-1d53a0caa18a",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:31-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:47:41 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4dff6b61-8d2c-4dc3-95a1-2388db7e3a8d",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:33-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:47:42 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4dff6b61-8d2c-4dc3-95a1-2388db7e3a8d",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:33-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:48:22 PM error: Error:
+{
+  "error": {},
+  "webhookId": "b310afc0-db32-4202-a448-9cd91535e5f5",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T06:48:15-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T06:48:15-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T18:48:15.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:48:24 PM error: Error:
+{
+  "error": {},
+  "webhookId": "a5c4ef99-1d47-47d8-88a3-858eae84361d",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T06:48:17-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T06:48:15-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T18:48:15.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:48:41 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4317415d-a92d-471c-84f8-1d53a0caa18a",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:31-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:48:42 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4dff6b61-8d2c-4dc3-95a1-2388db7e3a8d",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:33-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:50:04 PM error: Error:
+{
+  "error": {},
+  "webhookId": "2ceb3da6-68fc-45cc-8fc5-7552965f11f3",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T06:49:56-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T06:49:56-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T18:49:56.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:50:06 PM error: Error:
+{
+  "error": {},
+  "webhookId": "94f0f695-ffb7-49a1-9a3e-25ae4f544d22",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T06:49:59-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T06:49:56-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T18:49:56.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:50:42 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4317415d-a92d-471c-84f8-1d53a0caa18a",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:31-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:50:43 PM error: Error:
+{
+  "error": {},
+  "webhookId": "4dff6b61-8d2c-4dc3-95a1-2388db7e3a8d",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:47:33-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:47:31-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:47:31.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:56:27 PM error: Error:
+{
+  "error": {},
+  "webhookId": "fe5af87a-7823-45aa-9dfb-aed3710845af",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:55:21-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:55:21-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:55:21.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:56:28 PM error: Error:
+{
+  "error": {},
+  "webhookId": "c3a89dab-5699-48fe-9b0a-3fa0b876fce4",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:55:24-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:55:21-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:55:21.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:56:54 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "0be1f18a-76db-44c3-b049-d03e8bd94f7e",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:56:52-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:56:52-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:56:52.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:56:56 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "0be1f18a-76db-44c3-b049-d03e8bd94f7e",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:56:52-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:56:52-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:56:52.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:56:57 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "b2af1d78-3446-463e-bd5d-cee83c484474",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:56:55-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:56:52-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:56:52.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:56:58 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "b2af1d78-3446-463e-bd5d-cee83c484474",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:56:55-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:56:52-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:56:52.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:57:56 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "0be1f18a-76db-44c3-b049-d03e8bd94f7e",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:56:52-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:56:52-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:56:52.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:57:59 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "b2af1d78-3446-463e-bd5d-cee83c484474",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:56:55-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:56:52-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:56:52.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:58:10 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "8d709e31-4663-4077-98f3-5def3e0d649b",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T06:57:56-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T06:57:56-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T18:57:56.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:58:11 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "988931fb-c94e-4e51-b1d8-13c4e4a001d0",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T06:57:58-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T06:57:56-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T18:57:56.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:58:27 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "fe5af87a-7823-45aa-9dfb-aed3710845af",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:55:21-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:55:21-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:55:21.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:58:29 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "c3a89dab-5699-48fe-9b0a-3fa0b876fce4",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T08:55:24-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T08:55:21-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 0,
+        "old_inventory_quantity": 0
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T20:55:21.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/12/2025, 4:58:35 PM error: Error:
+{
+  "error": "Session not found for ID: offline_advanced-collection-sort.myshopify.com",
+  "webhookId": "c59a295f-fcc4-4de0-81b7-25c09e6d2c53",
+  "domain": "advanced-collection-sort.myshopify.com",
+  "payload": {
+    "admin_graphql_api_id": "gid://shopify/Product/7372881264698",
+    "body_html": null,
+    "created_at": "2025-01-11T16:30:53-12:00",
+    "handle": "the-out-of-stock-snowboard",
+    "id": 7372881264698,
+    "product_type": "snowboard",
+    "published_at": "2025-08-07T05:32:15-12:00",
+    "template_suffix": null,
+    "title": "The Out of Stock Snowboard",
+    "updated_at": "2025-08-12T06:58:27-12:00",
+    "vendor": "Advanced Collection sort",
+    "status": "active",
+    "published_scope": "global",
+    "tags": "AC-PUSH",
+    "variants": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "barcode": null,
+        "compare_at_price": null,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "id": 40754550571066,
+        "inventory_policy": "deny",
+        "position": 1,
+        "price": "885.95",
+        "product_id": 7372881264698,
+        "sku": null,
+        "taxable": true,
+        "title": "Default Title",
+        "updated_at": "2025-08-12T06:58:27-12:00",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null,
+        "image_id": null,
+        "inventory_item_id": 42849824243770,
+        "inventory_quantity": 1,
+        "old_inventory_quantity": 1
+      }
+    ],
+    "options": [
+      {
+        "name": "Title",
+        "id": 9615018885178,
+        "product_id": 7372881264698,
+        "position": 1,
+        "values": [
+          "Default Title"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": 30489788186682,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "width": 3908,
+        "height": 3908,
+        "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+      }
+    ],
+    "image": {
+      "id": 30489788186682,
+      "product_id": 7372881264698,
+      "position": 1,
+      "created_at": "2025-01-11T16:30:53-12:00",
+      "updated_at": "2025-01-11T16:30:55-12:00",
+      "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+      "width": 3908,
+      "height": 3908,
+      "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+      "variant_ids": [],
+      "admin_graphql_api_id": "gid://shopify/ProductImage/30489788186682"
+    },
+    "media": [
+      {
+        "id": 22580295401530,
+        "product_id": 7372881264698,
+        "position": 1,
+        "created_at": "2025-01-11T16:30:53-12:00",
+        "updated_at": "2025-01-11T16:30:55-12:00",
+        "alt": "Top and bottom view of a snowboard. The top view shows a toggle at the top in shades of blue and\n        yellow. The bottom view shows an abstract illustration of toggles in blues and yellows.",
+        "status": "READY",
+        "media_content_type": "IMAGE",
+        "preview_image": {
+          "width": 3908,
+          "height": 3908,
+          "src": "https://cdn.shopify.com/s/files/1/0573/3269/5098/files/Main_f44a9605-cd62-464d-b095-d45cdaa0d0d7.jpg?v=1736656255",
+          "status": "READY"
+        },
+        "variant_ids": [],
+        "admin_graphql_api_id": "gid://shopify/MediaImage/22580295401530"
+      }
+    ],
+    "variant_gids": [
+      {
+        "admin_graphql_api_id": "gid://shopify/ProductVariant/40754550571066",
+        "updated_at": "2025-08-12T18:58:27.000Z"
+      }
+    ],
+    "has_variants_that_requires_components": false,
+    "category": {
+      "admin_graphql_api_id": "gid://shopify/TaxonomyCategory/sg-4-17-2-17",
+      "name": "Snowboards",
+      "full_name": "Sporting Goods > Outdoor Recreation > Winter Sports & Activities > Skiing & Snowboarding > Snowboards"
+    }
+  }
+}
+8/13/2025, 11:01:38 PM info: Webhook PRODUCTS_UPDATE | 7c06e2b0-0c68-4598-bc2d-7b4cc3f2dac0 | advanced-collection-sort.myshopify.com
+8/13/2025, 11:28:09 PM info: Webhook PRODUCTS_UPDATE | 50be0e00-30c7-49da-81c3-93b2b91a7b85 | advanced-collection-sort.myshopify.com
