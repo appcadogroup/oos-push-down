@@ -35,7 +35,9 @@ router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, a
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
     // try {
+    collectionLogger.info(`Authenticating ${topic} | ${webhookId} | ${domain}`);
     const admin = await getAuthenticatedAdmin(domain);
+    collectionLogger.info(`Authenticated ${topic} | ${webhookId} | ${domain}`);
     const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
     collectionLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
     await handler.handle(topic);
