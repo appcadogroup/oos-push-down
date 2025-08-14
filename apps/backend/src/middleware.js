@@ -23,10 +23,8 @@ export async function verifyShopifyWebhook(req, res, next) {
       return next();
     } 
 
-    console.warn("❌ Webhook validation failed");
     return res.status(401).send("Unauthorized");
   } catch (error) {
-    console.error("❌ Error in verify shopify webhook:", error);
     return res.status(401).json({
       status: "error",
       error: "Webhook validation failed",
