@@ -1,0 +1,13 @@
+server {
+  listen 80;
+  server_name ${APP_HOST};
+
+  # ACME webroot
+  location ^~ /.well-known/acme-challenge/ {
+    root /var/www/certbot;
+  }
+
+  # proxy everything to app while bootstrapping
+  location /api/ { proxy_pass http://backend:3012/; proxy_set_header Host $host; }
+  location /     { proxy_pass http://frontend:3011; proxy_set_header Host $host; }
+}
