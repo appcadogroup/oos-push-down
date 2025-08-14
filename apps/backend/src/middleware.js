@@ -18,7 +18,7 @@ export async function verifyShopifyWebhook(req, res, next) {
       req.webhooks = {
         topic,
         webhookId,
-        //   domain,
+        domain,
       };
       return next();
     } 
