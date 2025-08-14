@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: apps/backend/Dockerfile.prod
-    env_file: apps/backend/.env.production
+    env_file: apps/backend/.env.prod
     command: ["npm","run","-w","packages/db","migrate:deploy"]
     restart: "no"
 
