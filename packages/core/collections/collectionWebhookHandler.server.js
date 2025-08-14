@@ -13,7 +13,7 @@ import { JOB_NAMES } from "../jobs/constants.js"
 import { bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
 import { CollectionSorting } from "@prisma/client";
 
-const logger = getLogger('webhooks/collection');
+const logger = getLogger('webhooks/collections');
 
 export class CollectionWebhookHandler {
   constructor({ payload, shop, admin }) {

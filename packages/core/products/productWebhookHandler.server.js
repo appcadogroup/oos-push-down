@@ -20,7 +20,7 @@ import {
 } from "../jobs/constants.js";
 import { bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
 
-const logger = getLogger('webhooks/product');
+const logger = getLogger('webhooks/products');
 
 export class ProductWebhookHandler {
   constructor({ payload, shop, admin }) {
