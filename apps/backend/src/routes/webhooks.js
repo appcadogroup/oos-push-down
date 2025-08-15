@@ -18,8 +18,7 @@ router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, asyn
         productLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
         await handler.handle(topic);
         return res.status(200).json({
-            status: 'success',
-            data: payload,
+            status: 'success'
         });
     } catch (error) {
         productLogger.error(`Error:`, { error: error?.message || error, webhookId: webhookId, domain: domain, payload: payload  });
@@ -34,7 +33,7 @@ router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, asyn
 router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
-    try {
+    // try {
     collectionLogger.info(`Authenticating ${topic} | ${webhookId} | ${domain}`);
     const admin = await getAuthenticatedAdmin(domain);
     collectionLogger.info(`Authenticated ${topic} | ${webhookId} | ${domain}`);
@@ -43,16 +42,15 @@ router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, a
     await handler.handle(topic);
 
     return res.status(200).json({
-        status: 'success',
-        data: payload,
+        status: 'success'
     });
-    } catch (error) {
-        collectionLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
-        res.status(500).json({
-            status: 'error',
-            error: 'Failed to process webhook -> Internal Server Error',
-        });
-    }
+    // } catch (error) {
+    //     collectionLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
+    //     res.status(500).json({
+    //         status: 'error',
+    //         error: 'Failed to process webhook -> Internal Server Error',
+    //     });
+    // }
 });
 
 router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
@@ -65,8 +63,7 @@ router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhoo
         await handler.handle(topic);
 
         return res.status(200).json({
-            status: 'success',
-            data: payload,
+            status: 'success'
         });
     } catch (error) {
         bulkOpLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
@@ -87,8 +84,7 @@ router.post('/apps', express.text({type: '*/*'}), verifyShopifyWebhook, async (r
         await handler.handle(topic);
 
         return res.status(200).json({
-            status: 'success',
-            data: 'Webhook processed successfully',
+            status: 'success'
         });
     } catch (error) {
         appLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
