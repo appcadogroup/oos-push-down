@@ -28,9 +28,9 @@ import {
 import { CheckIcon } from "@shopify/polaris-icons";
 import { memo, useCallback, useEffect, useState } from "react";
 import { SubscriptionUtils } from '@acme/core';
-import { getLogger } from '@acme/core/server';
+// import { getLogger } from '@acme/core/server';
 
-const logger = getLogger("frontend");
+// const logger = getLogger("frontend");
 
 export const PLAN_DATA = [
   {
