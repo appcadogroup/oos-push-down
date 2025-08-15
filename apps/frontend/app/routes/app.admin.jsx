@@ -29,10 +29,10 @@ import {
   CollectionController,
   MerchantService,
   AppGraphql,
-  getLogger
+  // getLogger
 } from "@acme/core/server"
 
-const logger = getLogger("frontend");
+// const logger = getLogger("frontend");
 
 // Constants (defined outside the component to avoid re-creation on renders)
 const SORTING_OPTIONS = [
@@ -224,7 +224,7 @@ export const action = async ({ request }) => {
         collectionID,
         selectedMerchant,
       );
-      logger.info(`Push down result for ${collectionID}:`, pushDownResult);
+      // logger.info(`Push down result for ${collectionID}:`, pushDownResult);
       return pushDownResult;
     case "getMerchantSubscription":
       // Subscriptions
@@ -252,7 +252,7 @@ export const action = async ({ request }) => {
         const queryResult = queryJson.data;
         return queryResult;
       } catch (error) {
-        logger.error("GraphQL Query Error:", error);
+        // logger.error("GraphQL Query Error:", error);
         return {
           success: false,
           message: "Error executing GraphQL query",
@@ -272,7 +272,7 @@ export const action = async ({ request }) => {
         await productController.syncStorePublications(selectedMerchant);
         return { success: true };
       } catch (error) {
-        logger.error("Error syncing store data", error);
+        // logger.error("Error syncing store data", error);
         return {
           success: false,
           message: `Error syncing store data: ${error?.message}`,

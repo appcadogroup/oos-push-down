@@ -8,8 +8,14 @@ import {
 import { PrismaSessionStorage } from "@shopify/shopify-app-session-storage-prisma";
 import prisma from "@acme/db";
 
-import { getLogger, CollectionController, MerchantService, MerchantGraphql, ProductController } from '@acme/core/server';
-const logger = getLogger('server');
+import { 
+  // getLogger,
+  CollectionController, 
+  MerchantService,
+  MerchantGraphql,
+  ProductController 
+} from '@acme/core/server';
+// const logger = getLogger('server');
 
 export const FREE_PLAN = 'Free subscription';
 export const STARTER_PLAN = 'Starter subscription';
@@ -156,12 +162,12 @@ const shopify = shopifyApp({
           await collectionController.syncStoreCollections(shop);
           await productController.syncStoreProducts(shop);
           await productController.syncStorePublications(shop);
-          logger.info(`Shop ${shop} authenticated and setup successfully`);
+          // logger.info(`Shop ${shop} authenticated and setup successfully`);
         } catch (error) {
-          logger.error(`Error during afterAuth hook: ${error.message}`, {
-            shop: session.shop,
-            error: error,
-          });
+          // logger.error(`Error during afterAuth hook: ${error.message}`, {
+          //   shop: session.shop,
+          //   error: error,
+          // });
         }
        
       }

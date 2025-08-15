@@ -153,7 +153,7 @@ export const action = async ({ request }) => {
 
   switch (action) {
     case "upgrade":
-      logger.debug(`Upgrading to plan ${plan.name}`);
+      // logger.debug(`Upgrading to plan ${plan.name}`);
       const upgradeResult = await billing.require({
         plans: [plan.name],
         onFailure: () =>
@@ -164,7 +164,7 @@ export const action = async ({ request }) => {
           }),
       });
 
-      logger.debug(`Upgrade result`, upgradeResult);
+      // logger.debug(`Upgrade result`, upgradeResult);
     case "cancel":
       try {
         const billingCheck = await billing.require({
@@ -228,11 +228,11 @@ export const loader = async ({ request }) => {
     });
 
     const subscription = billingCheck.appSubscriptions[0];
-    logger.debug(
-      `Shop is on plan ${subscription.name} (id ${subscription.id})`,
-    );
+    // logger.debug(
+    //   `Shop is on plan ${subscription.name} (id ${subscription.id})`,
+    // );
     const basePlan = SubscriptionUtils.getBasePlanName(subscription.name);
-    logger.debug(`Base plan is ${basePlan}`);
+    // logger.debug(`Base plan is ${basePlan}`);
     const matchedPlanData = PLAN_DATA.find(
       (plan) => SubscriptionUtils.getBasePlanName(plan.name) === basePlan,
     );
@@ -248,7 +248,7 @@ export const loader = async ({ request }) => {
     };
   } catch (error) {
     if (error.message === "No active plan") {
-      logger.debug(`Shop doesnt not have any active plans.`);
+      // logger.debug(`Shop doesnt not have any active plans.`);
       return {
         billing,
         plan: {

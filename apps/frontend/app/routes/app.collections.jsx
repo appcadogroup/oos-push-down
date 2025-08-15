@@ -43,7 +43,7 @@ import {
 } from "@acme/core";
 
 import {
-  getLogger,
+  // getLogger,
   MerchantService,
   MerchantGraphql,
   ProductController,
@@ -59,7 +59,7 @@ import Switch from "../components/Switch";
 import prisma from "@acme/db";
 import { useDebounce } from "../lib/useDebounce";
 
-const logger = getLogger("frontend");
+// const logger = getLogger("frontend");
 
 // Constants (defined outside the component to avoid re-creation on renders)
 const SORTING_OPTIONS = [
@@ -242,7 +242,7 @@ export const action = async ({ request }) => {
         await productController.syncStoreProducts(shop);
         await productController.syncStorePublications(shop);
       } catch (error) {
-        logger.error("Error syncing store data", error);
+        // logger.error("Error syncing store data", error);
       }
       return { success: true };
     default:
