@@ -28,6 +28,20 @@ services:
       migrate:
         condition: service_completed_successfully
 
+  worker:
+    image: oos-push-down-backend                       # or build: { context: ., dockerfile: apps/backend/Dockerfile.prod }
+    command: ["node","apps/backend/dist/jobs/workers/index.js"]
+    env_file: .env.prod
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: ${DATABASE_URL}
+      REDIS_URL: ${REDIS_URL}
+      NODE_OPTIONS: --max-old-space-size=256
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
   frontend:
     build:
       context: .
