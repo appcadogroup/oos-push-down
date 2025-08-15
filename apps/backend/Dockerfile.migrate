@@ -1,0 +1,16 @@
+FROM node:22-bullseye
+WORKDIR /app
+
+# prevent prisma postinstall during install
+ENV PRISMA_SKIP_POSTINSTALL_GENERATE=1
+
+# Copy only what migrate needs (fast, minimal)
+COPY package.json ./
+COPY packages/db/package.json packages/db/
+COPY packages/db/prisma packages/db/prisma
+
+# install only the db workspace (dev deps included so prisma CLI is present)
+RUN npm install -w packages/db
+
+# default command can be overridden by compose
+CMD ["npm","run","-w","packages/db","migrate:deploy"]

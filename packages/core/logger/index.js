@@ -23,7 +23,7 @@ export const getLogger = (modulePath) => {
   }
 
   return winston.createLogger({
-    level: process.env.NODE_ENV !== "production" ? "debug" : "info", // Log levels: error, warn, info, http, verbose, debug, silly
+    level: process.env.NODE_ENV !== "production" ? "debug" : "debug", // Log levels: error, warn, info, http, verbose, debug, silly
     format: winston.format.combine(
       winston.format.timestamp({ format: timezoned }),
       winston.format.errors({ stack: true }), // Log full stack trace

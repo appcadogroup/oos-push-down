@@ -39,8 +39,10 @@ export default function App() {
         <Link to="/app" rel="home">
           Home
         </Link>
-        <Link to="/app/settings/push-down">Push Down Settings</Link>
-        <Link to="/app/settings/hide-or-show">Hide / Unhide Settings</Link>
+        <Link to="/app/collections">Collections</Link>
+        <Link to="/app/settings/push-down">Push down settings</Link>
+        <Link to="/app/settings/hide-or-show">Hide / unhide settings</Link>
+        
         <Link to="/app/subscription">Subscription</Link>
         { isAdmin ? (
           <Link to="/app/admin">Admin</Link>

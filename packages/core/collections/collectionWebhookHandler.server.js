@@ -10,7 +10,7 @@ import {
 import prisma from "@acme/db";
 
 import { JOB_NAMES } from "../jobs/constants.js" 
-import { bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
+import { bulkOperationQueue } from "../jobs/queues/index.js";
 import { CollectionSorting } from "@prisma/client";
 
 const logger = getLogger('webhooks/collections');
