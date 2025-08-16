@@ -6,9 +6,9 @@ BigInt.prototype.toJSON = function () {
 import dotenv from "dotenv";
 dotenv.config();
 import Redis from "ioredis";
-import { getLogger } from "@acme/core/server";
+// import { getLogger } from "@acme/core/server";
 
-const logger = getLogger('redis');
+// const logger = getLogger('redis');
 
 const urlFromEnv = process.env.REDIS_URL;
 const host = process.env.REDIS_HOST || "localhost";
@@ -39,17 +39,17 @@ export const redis = urlFromEnv ? new Redis(urlFromEnv, { maxRetriesPerRequest: 
 
 
 redis.on('connect', () => {
-  logger.debug('Redis client connected to', redis.options.host || redis.options.url);
+  console.log('Redis client connected to', redis.options.host || redis.options.url);
 });
 
 redis.on('error', (err) => {
-  logger.error('Redis client error:', err);
+  console.error('Redis client error:', err);
 });
 
 redis.on('close', () => {
-  logger.debug('Redis connection closed');
+  console.log('Redis connection closed');
 });
 
 redis.on('reconnecting', (delay) => {
-  logger.debug(`Redis reconnecting in ${delay}ms`);
+  console.log(`Redis reconnecting in ${delay}ms`);
 });
