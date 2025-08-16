@@ -13,11 +13,11 @@ router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, asyn
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
     try {
-        const admin = await getAuthenticatedAdmin(domain);
-        const handler = new ProductWebhookHandler({ payload, shop: domain, admin });
-        console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
-        await handler.handle(topic);
-        return res.status(200).json({
+        // const admin = await getAuthenticatedAdmin(domain);
+        // const handler = new ProductWebhookHandler({ payload, shop: domain, admin });
+        // console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
+        // await handler.handle(topic);
+        return res.status(500).json({
             status: 'success'
         });
     } catch (error) {
@@ -34,14 +34,14 @@ router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, a
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
     // try {
-    console.log(`Authenticating ${topic} | ${webhookId} | ${domain}`);
-    const admin = await getAuthenticatedAdmin(domain);
-    console.log(`Authenticated ${topic} | ${webhookId} | ${domain}`);
-    const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
-    console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
-    await handler.handle(topic);
+    // console.log(`Authenticating ${topic} | ${webhookId} | ${domain}`);
+    // const admin = await getAuthenticatedAdmin(domain);
+    // console.log(`Authenticated ${topic} | ${webhookId} | ${domain}`);
+    // const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
+    // console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
+    // await handler.handle(topic);
 
-    return res.status(200).json({
+    return res.status(500).json({
         status: 'success'
     });
     // } catch (error) {
@@ -57,12 +57,12 @@ router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhoo
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
     try {
-        const admin = await getAuthenticatedAdmin(domain);
-        const handler = new BulkOperationWebhookHandler({ payload, shop: domain, admin });
-        console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
-        await handler.handle(topic);
+        // const admin = await getAuthenticatedAdmin(domain);
+        // const handler = new BulkOperationWebhookHandler({ payload, shop: domain, admin });
+        // console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
+        // await handler.handle(topic);
 
-        return res.status(200).json({
+        return res.status(500).json({
             status: 'success'
         });
     } catch (error) {
@@ -78,12 +78,12 @@ router.post('/apps', express.text({type: '*/*'}), verifyShopifyWebhook, async (r
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
     try {
-        const admin = await getAuthenticatedAdmin(domain);
-        const handler = new AppWebhookHandler({ payload, shop: domain, admin });
-        console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
-        await handler.handle(topic);
+        // const admin = await getAuthenticatedAdmin(domain);
+        // const handler = new AppWebhookHandler({ payload, shop: domain, admin });
+        // console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
+        // await handler.handle(topic);
 
-        return res.status(200).json({
+        return res.status(500).json({
             status: 'success'
         });
     } catch (error) {
