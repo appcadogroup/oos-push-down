@@ -97,7 +97,7 @@ export class CollectionWebhookHandler {
       });
     });
 
-    logger.info(`✅ Sucessfully created collection ${title}.`);
+    console.log(`✅ Sucessfully created collection ${title}.`);
 
     if (merchant.autoEnableCollection) {
       await this.collectionController.enableCollections([id]);
@@ -124,7 +124,7 @@ export class CollectionWebhookHandler {
       });
     });
 
-    logger.info(`✅ Sucessfully deleted collection ${id}.`);
+    console.log(`✅ Sucessfully deleted collection ${id}.`);
   }
 
   async handleCollectionUpdate() {
@@ -195,7 +195,7 @@ export class CollectionWebhookHandler {
       );
     }
 
-    // logger.info(`✅ Sucessfully updated collection ${id} ${title}.`);
+    // console.log(`✅ Sucessfully updated collection ${id} ${title}.`);
   }
 
   getUpdateData(
@@ -296,7 +296,7 @@ export class CollectionWebhookHandler {
   //   }));
 
   //   await bulkOperationQueue.addBulk(jobs);
-  //   logger.info(
+  //   console.log(
   //     `Scheduled ${jobs.length} push down jobs for product ${productId}`,
   //   );
   // }
@@ -328,7 +328,7 @@ export class CollectionWebhookHandler {
 
   // async scheduleSortingJobs(collectionID) {
   //   if (!collectionID) {
-  //     logger.error(`Collection ID is required to schedule sorting jobs`);
+  //     console.error(`Collection ID is required to schedule sorting jobs`);
   //     return;
   //   }
 
@@ -348,7 +348,7 @@ export class CollectionWebhookHandler {
   //   );
 
   //   await bulkOperationQueue.addBulk(jobs);
-  //   logger.info(
+  //   console.log(
   //     `Scheduled ${jobs.length} push down jobs for product ${productId}`,
   //   );
   // }

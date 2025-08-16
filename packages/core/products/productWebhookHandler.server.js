@@ -89,7 +89,7 @@ export class ProductWebhookHandler {
       });
     });
 
-    // logger.info(`✅ Sucessfully create product and update product count.`);
+    // console.log(`✅ Sucessfully create product and update product count.`);
   }
 
   async handleProductDelete() {
@@ -110,7 +110,7 @@ export class ProductWebhookHandler {
       });
     });
 
-    // logger.info(`✅ Sucessfully delete product ${id}.`);
+    // console.log(`✅ Sucessfully delete product ${id}.`);
   }
 
   async handleProductUpdate() {
@@ -240,7 +240,7 @@ export class ProductWebhookHandler {
     });
 
     if (productRecord.OOS !== OOS) {
-      // logger.info(`Product ${id} OOS status changed to ${OOS}.`);
+      // console.log(`Product ${id} OOS status changed to ${OOS}.`);
 
       if (isOverLimit) {
         // logger.debug(`Product ${id} sorting skipped due to plan limits.`);
@@ -353,7 +353,7 @@ export class ProductWebhookHandler {
         id: productRecord.productID,
         tags: OOSProductTag,
       });
-      // logger.info(`Removed OOS tag from product ${productRecord.productID}`);
+      // console.log(`Removed OOS tag from product ${productRecord.productID}`);
     }
 
     if (tagHiddenProduct && isNotEmptyStringAndNull(hiddenProductTag)) {
@@ -362,7 +362,7 @@ export class ProductWebhookHandler {
         tags: hiddenProductTag,
       });
 
-      // logger.info(`Removed hidden tag from product`, {
+      // console.log(`Removed hidden tag from product`, {
       //   result: removeTagResult,
       // });
     }
@@ -385,7 +385,7 @@ export class ProductWebhookHandler {
           ],
         });
 
-        // logger.info(
+        // console.log(
         //   `Republished product ${productRecord.productID} on online store channel`,
         //   { result },
         // );
@@ -399,7 +399,7 @@ export class ProductWebhookHandler {
         hiddenAt: null,
         scheduledHidden: null,
       });
-      // logger.info(`Republished product ${productRecord.productID}`);
+      // console.log(`Republished product ${productRecord.productID}`);
     }
 
     await this.schedulePushDownJobs(productRecord.productID);
@@ -431,7 +431,7 @@ export class ProductWebhookHandler {
     }));
 
     await bulkOperationQueue.addBulk(jobs);
-    // logger.info(
+    // console.log(
     //   `Scheduled ${jobs.length} push down jobs for product ${productId}`,
     // );
   }
@@ -463,7 +463,7 @@ export class ProductWebhookHandler {
 
   async scheduleSortingJobs(collectionID) {
     if (!collectionID) {
-      // logger.error(`Collection ID is required to schedule sorting jobs`);
+      // console.error(`Collection ID is required to schedule sorting jobs`);
       return;
     }
 
@@ -483,7 +483,7 @@ export class ProductWebhookHandler {
     );
 
     await bulkOperationQueue.addBulk(jobs);
-    // logger.info(
+    // console.log(
     //   `Scheduled ${jobs.length} push down jobs for product ${productId}`,
     // );
   }
