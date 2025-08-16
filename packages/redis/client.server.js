@@ -25,11 +25,11 @@ const redisConfig = {
   tls: process.env.REDIS_URL?.includes('rediss://') ? {} : undefined,
   retryStrategy(times) {
     const delay = Math.min(times * 50, 2000); // Retry with increasing delay, max 2s
-    logger.debug(`Retrying Redis connection (${times}) after ${delay}ms`);
+    console.log(`Retrying Redis connection (${times}) after ${delay}ms`);
     return delay;
   },
   reconnectOnError(err) {
-    logger.error('Redis reconnect on error:', err.message);
+    console.error('Redis reconnect on error:', err.message);
     return true; // Reconnect on any error
   },
 };
