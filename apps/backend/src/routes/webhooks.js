@@ -1,13 +1,13 @@
 import express from 'express';
 import { verifyShopifyWebhook } from '../middleware.js';
 import { getAuthenticatedAdmin } from '../app.js';
-import { ProductWebhookHandler, CollectionWebhookHandler, getLogger, BulkOperationWebhookHandler, AppWebhookHandler } from '@acme/core/server';
+import { ProductWebhookHandler, CollectionWebhookHandler, BulkOperationWebhookHandler, AppWebhookHandler } from '@acme/core/server';
 
 const router = express.Router();
-const productLogger = getLogger('webhooks/products');
-const collectionLogger = getLogger('webhooks/collections');
-const bulkOpLogger = getLogger('webhooks/bulk-operations');
-const appLogger = getLogger('webhooks/apps');
+// const productLogger = getLogger('webhooks/products');
+// const collectionLogger = getLogger('webhooks/collections');
+// const bulkOpLogger = getLogger('webhooks/bulk-operations');
+// const appLogger = getLogger('webhooks/apps');
 
 router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, async (req, res) => {
     const payload = req.body;
@@ -15,13 +15,13 @@ router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, asyn
     try {
         const admin = await getAuthenticatedAdmin(domain);
         const handler = new ProductWebhookHandler({ payload, shop: domain, admin });
-        productLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
+        console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
         await handler.handle(topic);
         return res.status(200).json({
             status: 'success'
         });
     } catch (error) {
-        productLogger.error(`Error:`, { error: error?.message || error, webhookId: webhookId, domain: domain, payload: payload  });
+        console.error(`Error:`, { error: error?.message || error, webhookId: webhookId, domain: domain, payload: payload  });
         return res.status(500).json({
             status: 'error',
             error: 'Failed to process webhook -> Internal Server Error',
@@ -34,11 +34,11 @@ router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, a
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
     // try {
-    collectionLogger.info(`Authenticating ${topic} | ${webhookId} | ${domain}`);
+    console.log(`Authenticating ${topic} | ${webhookId} | ${domain}`);
     const admin = await getAuthenticatedAdmin(domain);
-    collectionLogger.info(`Authenticated ${topic} | ${webhookId} | ${domain}`);
+    console.log(`Authenticated ${topic} | ${webhookId} | ${domain}`);
     const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
-    collectionLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
+    console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
     await handler.handle(topic);
 
     return res.status(200).json({
@@ -59,14 +59,14 @@ router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhoo
     try {
         const admin = await getAuthenticatedAdmin(domain);
         const handler = new BulkOperationWebhookHandler({ payload, shop: domain, admin });
-        bulkOpLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
+        console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
         await handler.handle(topic);
 
         return res.status(200).json({
             status: 'success'
         });
     } catch (error) {
-        bulkOpLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
+        console.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
         return res.status(500).json({
             status: 'error',
             error: 'Failed to process webhook -> Internal Server Error',
@@ -80,14 +80,14 @@ router.post('/apps', express.text({type: '*/*'}), verifyShopifyWebhook, async (r
     try {
         const admin = await getAuthenticatedAdmin(domain);
         const handler = new AppWebhookHandler({ payload, shop: domain, admin });
-        appLogger.info(`Webhook ${topic} | ${webhookId} | ${domain}`);
+        console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
         await handler.handle(topic);
 
         return res.status(200).json({
             status: 'success'
         });
     } catch (error) {
-        appLogger.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
+        console.error(`Error:`, { error: error, webhookId: webhookId, domain: domain, payload: payload  });
         return res.status(500).json({
             status: 'error',
             error: 'Failed to process webhook -> Internal Server Error',
