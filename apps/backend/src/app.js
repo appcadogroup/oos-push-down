@@ -25,7 +25,8 @@ async function getSessionFromStorage(sessionId) {
   });
 
   if (!session) {
-    throw new Error(`Session not found for ID: ${sessionId}`);
+    console.error(`Session not found for ID: ${sessionId}`);
+    return null
   }
 
   return new Session(session);
@@ -34,12 +35,14 @@ async function getSessionFromStorage(sessionId) {
 export async function getAuthenticatedAdmin(domain) {
   const sessionId = await shopify.session.getOfflineId(domain);
   if (!sessionId) {
-    throw new Error(`Session ID not found for shop: ${domain}`);
+    console.error(`Session ID not found for shop: ${domain}`);
+    return null;
   }
 
   const session = await getSessionFromStorage(sessionId);
   if (!session) {
-    throw new Error(`Session not found for shop: ${domain}`);
+    console.error(`Session not found for shop: ${domain}`);
+    return null;
   }
 
   return new shopify.clients.Graphql({ session });
