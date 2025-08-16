@@ -3,13 +3,13 @@ const router = express.Router();
 
 router.get("/hello", async (req, res) => {
   try {
-    res.status(200).json({
+    return res.status(200).json({
       status: "success",
       message: "Hello Beanery!!!",
     });
   } catch (error) {
     console.error("Error in getHello:", error);
-    res.status(500).json({
+    return res.status(500).json({
       status: "error",
       error: "Internal Server Error",
     });
@@ -18,13 +18,13 @@ router.get("/hello", async (req, res) => {
 
 router.get("/health", async (req, res) => {
   try {
-    res.status(200).json({
+    return res.status(200).json({
       status: "success",
       message: "Service is healthy",
     });
   } catch (error) {
     console.error("Error in health check:", error);
-    res.status(500).json({
+    return res.status(500).json({
       status: "error",
       error: "Internal Server Error",
     });
