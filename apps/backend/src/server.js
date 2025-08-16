@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 import app from './app.js';
-// import './jobs/workers/index.js';
+import './jobs/workers/index.js';
 // import { getLogger } from "@acme/core/server";
 // const logger = getLogger('server');
 

@@ -21,7 +21,7 @@ export class CollectionService {
     try {
       await this.redis.setex(this.getCacheKey(id.toString()), this.cacheTTL, JSON.stringify(data));
     } catch (error) {
-      // logger.error("Failed to cache collection:", { error, id });
+      console.error("Failed to cache collection:", { error, id });
     }
   }
 
@@ -45,7 +45,7 @@ export class CollectionService {
       await pipeline.exec();
       // logger.debug(`Cached ${collections.length} collections in bulk`);
     } catch (error) {
-      // logger.error("Error in setCacheBulk:", { error, collectionCount: collections.length });
+      console.error("Error in setCacheBulk:", { error, collectionCount: collections.length });
     }
   }
 
@@ -54,7 +54,7 @@ export class CollectionService {
     try {
       await this.redis.del(this.getCacheKey(id));
     } catch (error) {
-      // logger.error("Error invalidating cache:", { error, id });
+      console.error("Error invalidating cache:", { error, id });
     }
   }
 
