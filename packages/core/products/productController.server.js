@@ -1,11 +1,14 @@
 // src/controllers/productController.js
-import { getLogger, ProductService, ProductGraphql } from "@acme/core/server";
+import { 
+  // getLogger,
+  ProductService, 
+  ProductGraphql } from "@acme/core/server";
 import { retrieveAdminLegacyResourceID } from "@acme/core";
 
 // Server Side Imports
 import prisma from "@acme/db";
 
-const logger = getLogger('controller/product');
+// const logger = getLogger('controller/product');
 
 export class ProductController {
   constructor(admin) {
@@ -15,16 +18,16 @@ export class ProductController {
 
   async syncStoreProducts(shop, forceSync = false) {
     try {
-      logger.debug("Starting product synchronization");
+      // logger.debug("Starting product synchronization");
 
       // Fetch product count from database
       const totalProduct = await this.productService.countProduct({ shop });
       const { productsCount } = await this.productGraphql.getProductsCount({});
 
       if (totalProduct === productsCount && !forceSync) {
-        logger.debug(
-          `Product count in database is up to date: ${totalProduct}`,
-        );
+        // logger.debug(
+        //   `Product count in database is up to date: ${totalProduct}`,
+        // );
         return {
           success: true,
           message: "Products already synchronized",
@@ -72,9 +75,9 @@ export class ProductController {
 
           await this.productService.upsertProduct(productID, data);
 
-          logger.debug(
-            `Product ${productData.title} synchronized successfully`,
-          );
+          // logger.debug(
+          //   `Product ${productData.title} synchronized successfully`,
+          // );
           updatedProductsCount++;
         }
       } else {
@@ -87,16 +90,16 @@ export class ProductController {
         updatedProductsCount = createdProducts.count;
       }
 
-      logger.debug(
-        `Total product: ${totalProduct}, products fetched: ${productsData.length}`,
-      );
+      // logger.debug(
+      //   `Total product: ${totalProduct}, products fetched: ${productsData.length}`,
+      // );
       if (totalProduct > productsData.length) {
-        logger.debug(`Require delete extra products in DB`);
+        // logger.debug(`Require delete extra products in DB`);
         const allDBProducts = await this.productService.getManyProducts(
           {},
           { productID: true },
         );
-        logger.debug(`Total products in DB: ${allDBProducts}`);
+        // logger.debug(`Total products in DB: ${allDBProducts}`);
         // Delete products that should be removed in db
         const productsToDelete = allDBProducts.filter(
           (dbProduct) =>
@@ -112,9 +115,9 @@ export class ProductController {
             },
           });
 
-          logger.debug(
-            `Deleted ${productsToDelete.length} products that are no longer in Shopify`,
-          );
+          // logger.debug(
+          //   `Deleted ${productsToDelete.length} products that are no longer in Shopify`,
+          // );
         }
       }
 
@@ -129,7 +132,7 @@ export class ProductController {
         data: { productCount },
       });
 
-      logger.info(`Successfully synchronized ${updatedProductsCount} products`);
+      // logger.info(`Successfully synchronized ${updatedProductsCount} products`);
 
       return {
         success: true,
@@ -137,14 +140,14 @@ export class ProductController {
         count: graphqlProducts.length,
       };
     } catch (error) {
-      logger.error(`Failed synchronize products.`, error.message);
+      // logger.error(`Failed synchronize products.`, error.message);
       throw new Error("Failed synchronize products.");
     }
   }
 
   async syncStorePublications(shop) {
     try {
-      logger.info("Starting publications synchronization");
+      // logger.info("Starting publications synchronization");
 
       // Fetch all products from Shopify
       const { catalogs } = await this.productGraphql.getCatalogs();
@@ -169,9 +172,9 @@ export class ProductController {
           skipDuplicates: true,
         });
 
-      logger.info(
-        `Successfully synchronized ${createdPublications.count} publications`,
-      );
+      // logger.info(
+      //   `Successfully synchronized ${createdPublications.count} publications`,
+      // );
 
       return {
         success: true,
@@ -179,7 +182,7 @@ export class ProductController {
         count: createdPublications.length,
       };
     } catch (error) {
-      logger.error(`Failed synchronize publications.`, error);
+      // logger.error(`Failed synchronize publications.`, error);
       throw new Error("Failed synchronize publications.");
     }
   }

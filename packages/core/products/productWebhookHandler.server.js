@@ -1,5 +1,5 @@
 import {
-  getLogger,
+  // getLogger,
   CollectionGraphql,
   MerchantService,
   ProductService,
@@ -20,7 +20,7 @@ import {
 } from "../jobs/constants.js";
 import { bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
 
-const logger = getLogger('webhooks/products');
+// const logger = getLogger('webhooks/products');
 
 export class ProductWebhookHandler {
   constructor({ payload, shop, admin }) {
@@ -89,7 +89,7 @@ export class ProductWebhookHandler {
       });
     });
 
-    logger.info(`✅ Sucessfully create product and update product count.`);
+    // logger.info(`✅ Sucessfully create product and update product count.`);
   }
 
   async handleProductDelete() {
@@ -110,7 +110,7 @@ export class ProductWebhookHandler {
       });
     });
 
-    logger.info(`✅ Sucessfully delete product ${id}.`);
+    // logger.info(`✅ Sucessfully delete product ${id}.`);
   }
 
   async handleProductUpdate() {
@@ -216,7 +216,7 @@ export class ProductWebhookHandler {
       productRecord.hasOutOfStockVariants !== hasOutOfStockVariants;
 
     if (!isUpdated) {
-      logger.debug(`Product ${id} not updated. Skipping...`);
+      // logger.debug(`Product ${id} not updated. Skipping...`);
       return;
     }
 
@@ -240,10 +240,10 @@ export class ProductWebhookHandler {
     });
 
     if (productRecord.OOS !== OOS) {
-      logger.info(`Product ${id} OOS status changed to ${OOS}.`);
+      // logger.info(`Product ${id} OOS status changed to ${OOS}.`);
 
       if (isOverLimit) {
-        logger.debug(`Product ${id} sorting skipped due to plan limits.`);
+        // logger.debug(`Product ${id} sorting skipped due to plan limits.`);
         return;
       }
 
@@ -327,9 +327,9 @@ export class ProductWebhookHandler {
         productRecord.productID,
         hideAfterDays,
       );
-      logger.debug(
-        `Scheduled hiding for product ${productRecord.productID} after ${hideAfterDays} days`,
-      );
+      // logger.debug(
+      //   `Scheduled hiding for product ${productRecord.productID} after ${hideAfterDays} days`,
+      // );
     }
   }
 
@@ -353,7 +353,7 @@ export class ProductWebhookHandler {
         id: productRecord.productID,
         tags: OOSProductTag,
       });
-      logger.info(`Removed OOS tag from product ${productRecord.productID}`);
+      // logger.info(`Removed OOS tag from product ${productRecord.productID}`);
     }
 
     if (tagHiddenProduct && isNotEmptyStringAndNull(hiddenProductTag)) {
@@ -362,9 +362,9 @@ export class ProductWebhookHandler {
         tags: hiddenProductTag,
       });
 
-      logger.info(`Removed hidden tag from product`, {
-        result: removeTagResult,
-      });
+      // logger.info(`Removed hidden tag from product`, {
+      //   result: removeTagResult,
+      // });
     }
 
     // Re-publish if previously hidden
@@ -385,10 +385,10 @@ export class ProductWebhookHandler {
           ],
         });
 
-        logger.info(
-          `Republished product ${productRecord.productID} on online store channel`,
-          { result },
-        );
+        // logger.info(
+        //   `Republished product ${productRecord.productID} on online store channel`,
+        //   { result },
+        // );
       } else {
         await this.productGraphql.updateProduct({
           id: productRecord.productID,
@@ -399,7 +399,7 @@ export class ProductWebhookHandler {
         hiddenAt: null,
         scheduledHidden: null,
       });
-      logger.info(`Republished product ${productRecord.productID}`);
+      // logger.info(`Republished product ${productRecord.productID}`);
     }
 
     await this.schedulePushDownJobs(productRecord.productID);
@@ -417,7 +417,7 @@ export class ProductWebhookHandler {
     });
 
     if (!activeCollections.length) {
-      logger.debug(`No active collections found for product ${productId}`);
+      // logger.debug(`No active collections found for product ${productId}`);
       return;
     }
 
@@ -431,9 +431,9 @@ export class ProductWebhookHandler {
     }));
 
     await bulkOperationQueue.addBulk(jobs);
-    logger.info(
-      `Scheduled ${jobs.length} push down jobs for product ${productId}`,
-    );
+    // logger.info(
+    //   `Scheduled ${jobs.length} push down jobs for product ${productId}`,
+    // );
   }
 
   async scheduleHideProductJobs(productId, hideAfterDays) {
@@ -456,14 +456,14 @@ export class ProductWebhookHandler {
     await this.productService.updateProduct(productId, {
       scheduledHidden: new Date(),
     });
-    logger.debug(
-      `Scheduled hiding for product ${productId} after ${hideAfterDays} days`,
-    );
+    // logger.debug(
+    //   `Scheduled hiding for product ${productId} after ${hideAfterDays} days`,
+    // );
   }
 
   async scheduleSortingJobs(collectionID) {
     if (!collectionID) {
-      logger.error(`Collection ID is required to schedule sorting jobs`);
+      // logger.error(`Collection ID is required to schedule sorting jobs`);
       return;
     }
 
@@ -483,8 +483,8 @@ export class ProductWebhookHandler {
     );
 
     await bulkOperationQueue.addBulk(jobs);
-    logger.info(
-      `Scheduled ${jobs.length} push down jobs for product ${productId}`,
-    );
+    // logger.info(
+    //   `Scheduled ${jobs.length} push down jobs for product ${productId}`,
+    // );
   }
 }

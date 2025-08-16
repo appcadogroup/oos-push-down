@@ -1,7 +1,7 @@
 // src/controllers/collectionController.js
 import prisma from "@acme/db";
 import {
-  getLogger,
+  // getLogger,
   CollectionService,
   CollectionGraphql,
   MerchantService,
@@ -21,7 +21,7 @@ import {
 } from "../jobs/constants.js";
 import { sortingQueue, bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
 
-const logger = getLogger('controller/collection');
+// const logger = getLogger('controller/collection');
 
 export class CollectionController {
   constructor(admin, shop = null) {
@@ -36,9 +36,9 @@ export class CollectionController {
 
   async updateCollectionSortingRule(collectionID, currentSorting) {
     try {
-      logger.info(
-        `📜 Updating collection sorting ruoverrideSortingle for ${collectionID}`,
-      );
+      // logger.info(
+      //   `📜 Updating collection sorting ruoverrideSortingle for ${collectionID}`,
+      // );
       const updatedCollection = await this.collectionService.updateCollection(
         collectionID,
         { currentSorting: currentSorting },
@@ -53,9 +53,9 @@ export class CollectionController {
         });
       }
 
-      logger.info(
-        `✅ Successfully updated collection sorting rule for ${updatedCollection.collectionID}`,
-      );
+      // logger.info(
+      //   `✅ Successfully updated collection sorting rule for ${updatedCollection.collectionID}`,
+      // );
 
       return {
         success: true,
@@ -63,14 +63,14 @@ export class CollectionController {
         updatedCollections: [updatedCollection],
       };
     } catch (error) {
-      logger.error(`Failed to update collection sorting rule.`, error);
+      // logger.error(`Failed to update collection sorting rule.`, error);
       throw new Error("Failed to update collection sorting rule.");
     }
   }
 
   async enableCollections(collectionIDS) {
     try {
-      logger.info(`📜 Enabling ${collectionIDS.length} collections.`);
+      // logger.info(`📜 Enabling ${collectionIDS.length} collections.`);
 
       const collections = await this.collectionService.getManyCollections(
         { collectionID: { in: collectionIDS } },
@@ -105,9 +105,9 @@ export class CollectionController {
           { isActive: true },
         );
 
-      logger.info(
-        `✅ Successfully enabled ${updatedCollections.length} collections`,
-      );
+      // logger.info(
+      //   `✅ Successfully enabled ${updatedCollections.length} collections`,
+      // );
 
       if (this.shop) {
         await sortingQueue.upsertJobScheduler(
@@ -131,14 +131,14 @@ export class CollectionController {
         updatedCollections: updatedCollections,
       };
     } catch (error) {
-      logger.error(`Failed to enable collections.`, error);
+      // logger.error(`Failed to enable collections.`, error);
       throw new Error("Failed to enable collections.");
     }
   }
 
   async disableCollections(collectionIDS) {
     try {
-      logger.info(`📜 Disabling ${collectionIDS.length} collections.`);
+      // logger.info(`📜 Disabling ${collectionIDS.length} collections.`);
 
       const collections = await this.collectionService.getManyCollections(
         { collectionID: { in: collectionIDS } },
@@ -170,9 +170,9 @@ export class CollectionController {
           { isActive: false, OOSCount: null },
         );
 
-      logger.info(
-        `✅ Successfully disabled ${updatedCollections.length} collections`,
-      );
+      // logger.info(
+      //   `✅ Successfully disabled ${updatedCollections.length} collections`,
+      // );
 
       if (this.shop) {
         // Check active collections count
@@ -183,16 +183,16 @@ export class CollectionController {
           });
         if (activeCollectionsCount === 0) {
           const removeResult = await sortingQueue.removeJobScheduler(this.shop);
-          logger.debug(
-            `Removed auto sorting job scheduler for shop ${this.shop}`,
-            {
-              removeResult,
-            },
-          );
+          // logger.debug(
+          //   `Removed auto sorting job scheduler for shop ${this.shop}`,
+          //   {
+          //     removeResult,
+          //   },
+          // );
         } else {
-          logger.debug(
-            `There are still ${activeCollectionsCount} active collections. Not removing auto sorting job scheduler.`,
-          );
+          // logger.debug(
+          //   `There are still ${activeCollectionsCount} active collections. Not removing auto sorting job scheduler.`,
+          // );
         }
       }
 
@@ -202,14 +202,14 @@ export class CollectionController {
         updatedCollections: updatedCollections,
       };
     } catch (error) {
-      logger.error(`Failed to disable collections.`, error);
+      // logger.error(`Failed to disable collections.`, error);
       throw new Error("Failed to disable collections.");
     }
   }
 
   async sortCollection(collectionID, shop) {
     try {
-      logger.info(`📜 Sorting ${collectionID} collection.`);
+      // logger.info(`📜 Sorting ${collectionID} collection.`);
 
       const collection = await this.collectionService.getCollection({
         id: collectionID,
@@ -311,7 +311,7 @@ export class CollectionController {
           });
 
         if (userErrors?.length > 0) {
-          logger.error(`Failed to reorder collection products.`, userErrors);
+          // logger.error(`Failed to reorder collection products.`, userErrors);
           return {
             error: "Failed to reorder collection products.",
           };
@@ -326,7 +326,7 @@ export class CollectionController {
         },
       );
 
-      logger.info(`✅ Successfully pushed down ${collectionID} collections`);
+      // logger.info(`✅ Successfully pushed down ${collectionID} collections`);
 
       // logger.debug(`Process hiding for OOS products`, {enableHiding})
       // if (enableHiding) {
@@ -349,15 +349,15 @@ export class CollectionController {
         updatedCollections: [updatedCollection],
       };
     } catch (error) {
-      logger.error(`Failed to sort collections.`, error);
+      // logger.error(`Failed to sort collections.`, error);
       throw new Error("Failed to sort collections.");
     }
   }
 
   async schedulePushDownJob(collectionID, shop, delay = 4000) {
-    logger.debug(
-      `📜 Scheduling push down job for collection ${collectionID} ${shop}`,
-    );
+    // logger.debug(
+    //   `📜 Scheduling push down job for collection ${collectionID} ${shop}`,
+    // );
     await bulkOperationQueue.add(
       JOB_NAMES.PUSH_DOWN,
       {
@@ -399,14 +399,14 @@ export class CollectionController {
     await this.productService.updateProduct(productId, {
       scheduledHidden: new Date(),
     });
-    logger.debug(
-      `Scheduled hiding for product ${productId} after ${hideAfterDays} days`,
-    );
+    // logger.debug(
+    //   `Scheduled hiding for product ${productId} after ${hideAfterDays} days`,
+    // );
   }
 
   async syncStoreCollections(shop, forceSync = false) {
     try {
-      logger.info("📜 Starting collection synchronization");
+      // logger.info("📜 Starting collection synchronization");
 
       // Fetch collection count from database
       const totalCollection = await this.collectionService.countCollection({
@@ -415,14 +415,14 @@ export class CollectionController {
       const { collectionCount } =
         await this.collectionGraphql.getCollectionCount();
 
-      logger.info(
-        `totalCollection: ${totalCollection}, collectionCount: ${collectionCount}`,
-      );
+      // logger.info(
+      //   `totalCollection: ${totalCollection}, collectionCount: ${collectionCount}`,
+      // );
 
       if (totalCollection === collectionCount && !forceSync) {
-        logger.info(
-          `No need to synchronize collections. Already synchronized.`,
-        );
+        // logger.info(
+        //   `No need to synchronize collections. Already synchronized.`,
+        // );
         return {
           success: true,
           message: "No need to synchronize collections.",
@@ -466,16 +466,16 @@ export class CollectionController {
         });
 
       
-      logger.debug(
-        `Total product: ${totalCollection}, collections fetched: ${collectionsData.length}`,
-      );
+      // logger.debug(
+      //   `Total product: ${totalCollection}, collections fetched: ${collectionsData.length}`,
+      // );
       if (totalCollection > collectionsData.length) {
-        logger.debug(`Require delete extra products in DB`);
+        // logger.debug(`Require delete extra products in DB`);
         const allDBCollections = await this.collectionService.getManyCollections(
           {},
           { collectionID: true },
         );
-        logger.debug(`Total collections in DB: ${allDBCollections}`);
+        // logger.debug(`Total collections in DB: ${allDBCollections}`);
         // Delete products that should be removed in db
         const collectionsToDelete = allDBCollections.filter(
           (dbCollection) =>
@@ -491,9 +491,9 @@ export class CollectionController {
             },
           });
 
-          logger.debug(
-            `Deleted ${collectionsToDelete.length} collections that are no longer in Shopify`,
-          );
+          // logger.debug(
+          //   `Deleted ${collectionsToDelete.length} collections that are no longer in Shopify`,
+          // );
         }
       }
 
@@ -505,9 +505,9 @@ export class CollectionController {
       await this.merchantService.updateMerchant(shop, {
         collectionCount: latestCollectionCount,
       });
-      logger.info(
-        `✅ Successfully synchronized ${createdCollections.count} collections`,
-      );
+      // logger.info(
+      //   `✅ Successfully synchronized ${createdCollections.count} collections`,
+      // );
 
       return {
         success: true,
@@ -515,7 +515,7 @@ export class CollectionController {
         count: graphqlCollections.length,
       };
     } catch (error) {
-      logger.error(`Failed synchronize collections.`, error);
+      // logger.error(`Failed synchronize collections.`, error);
       throw new Error("Failed synchronize collections.");
     }
   }

@@ -1,9 +1,9 @@
 // src/services/collectionService.js
-import { getLogger } from '@acme/core/server'
+// import { getLogger } from '@acme/core/server'
 import { redis } from '@acme/redis'; // Import shared Redis client
 import prisma from '@acme/db';
 
-const logger = getLogger('services/collection');
+// const logger = getLogger('services/collection');
 
 export class CollectionService {
   constructor(db = prisma, redisClient = redis) {
@@ -21,7 +21,7 @@ export class CollectionService {
     try {
       await this.redis.setex(this.getCacheKey(id.toString()), this.cacheTTL, JSON.stringify(data));
     } catch (error) {
-      logger.error("Failed to cache collection:", { error, id });
+      // logger.error("Failed to cache collection:", { error, id });
     }
   }
 
@@ -43,9 +43,9 @@ export class CollectionService {
         pipeline.expire(key, this.cacheTTL);
       }
       await pipeline.exec();
-      logger.debug(`Cached ${collections.length} collections in bulk`);
+      // logger.debug(`Cached ${collections.length} collections in bulk`);
     } catch (error) {
-      logger.error("Error in setCacheBulk:", { error, collectionCount: collections.length });
+      // logger.error("Error in setCacheBulk:", { error, collectionCount: collections.length });
     }
   }
 
@@ -54,7 +54,7 @@ export class CollectionService {
     try {
       await this.redis.del(this.getCacheKey(id));
     } catch (error) {
-      logger.error("Error invalidating cache:", { error, id });
+      // logger.error("Error invalidating cache:", { error, id });
     }
   }
 
@@ -84,7 +84,7 @@ export class CollectionService {
 
       return collection;
     } catch (error) {
-      logger.error("Error in getCollection:", { error, id });
+      // logger.error("Error in getCollection:", { error, id });
       throw new Error(`Failed to fetch collection: ${error.message}`);
     }
   }
@@ -97,7 +97,7 @@ export class CollectionService {
       });
       return collections; // No caching for bulk reads as per decision
     } catch (error) {
-      logger.error("Error in getManyCollections:", { error, where });
+      // logger.error("Error in getManyCollections:", { error, where });
       throw new Error(`Failed to fetch collections: ${error.message}`);
     }
   }
@@ -107,7 +107,7 @@ export class CollectionService {
       const result = await tx.collection.deleteMany();
       return result;
     } catch (error) {
-      logger.error("Error in deleteAllCollections:", { error });
+      // logger.error("Error in deleteAllCollections:", { error });
       throw new Error(`Failed to delete all collections: ${error.message}`);
     }
   }
@@ -120,7 +120,7 @@ export class CollectionService {
       });
       return result; // No caching for bulk operations
     } catch (error) {
-      logger.error("Error in createManyCollections:", { error, data, skipDuplicates });
+      // logger.error("Error in createManyCollections:", { error, data, skipDuplicates });
       throw new Error(`Failed to create many collections: ${error.message}`);
     }
   }
@@ -133,7 +133,7 @@ export class CollectionService {
       });
       return collections; // No caching for bulk operations
     } catch (error) {
-      logger.error("Error in createManyAndReturnCollections:", { error, data, skipDuplicates });
+      // logger.error("Error in createManyAndReturnCollections:", { error, data, skipDuplicates });
       throw new Error(`Failed to create and return collections: ${error.message}`);
     }
   }
@@ -179,7 +179,7 @@ export class CollectionService {
 
       return collection;
     } catch (error) {
-      logger.error("Error in upsertCollection:", { error, data });
+      // logger.error("Error in upsertCollection:", { error, data });
       if (error.code === "P2025") throw new Error(`Collection with ID ${legacyResourceId} not found for update`);
       throw new Error(`Failed to upsert collection: ${error.message}`);
     }
@@ -194,7 +194,7 @@ export class CollectionService {
 
       return collection;
     } catch (error) {
-      logger.error("Error in updateCollection:", { error, id, data });
+      // logger.error("Error in updateCollection:", { error, id, data });
       if (error.code === "P2025") throw new Error(`Collection with ID ${id} not found`);
       throw new Error(`Failed to update collection: ${error.message}`);
     }
@@ -208,7 +208,7 @@ export class CollectionService {
       });
       return collections; // No caching for bulk operations
     } catch (error) {
-      logger.error("Error in updateManyAndReturnCollections:", { error, data });
+      // logger.error("Error in updateManyAndReturnCollections:", { error, data });
       throw new Error(`Failed to update and return collections: ${error.message}`);
     }
   }
@@ -226,7 +226,7 @@ export class CollectionService {
 
       return collection;
     } catch (error) {
-      logger.error("Error in deleteCollection:", { error, id });
+      // logger.error("Error in deleteCollection:", { error, id });
       if (error.code === "P2025") throw new Error(`Collection with ID ${id} not found`);
       throw new Error(`Failed to delete collection: ${error.message}`);
     }
@@ -238,7 +238,7 @@ export class CollectionService {
       return count;
     }
     catch (error) {
-      logger.error("Error in countCollection:", { error, where });
+      // logger.error("Error in countCollection:", { error, where });
       throw new Error(`Failed to count collections: ${error.message}`);
     } 
   }
@@ -251,7 +251,7 @@ export class CollectionService {
 
       return result;
     } catch (error) {
-      logger.error("Error in deleteManyCollections:", { error, where });
+      // logger.error("Error in deleteManyCollections:", { error, where });
       throw new Error(`Failed to delete many collections: ${error.message}`);
     }
   }

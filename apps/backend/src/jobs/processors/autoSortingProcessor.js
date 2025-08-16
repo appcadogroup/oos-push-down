@@ -2,18 +2,18 @@
 import {
   MerchantService,
   CollectionService,
-  getLogger,
+  // getLogger,
   bulkOperationQueue
 } from "@acme/core/server";
 
 import { SubscriptionUtils, JOB_NAMES } from "@acme/core";
 
 
-const logger = getLogger('jobs/autoSorting');
+// const logger = getLogger('jobs/autoSorting');
 
 export const autoSortingProcessor = async (job) => {
   const { shop } = job.data;
-  logger.debug(`Starting auto sorting job for shop ${shop}`);
+  // logger.debug(`Starting auto sorting job for shop ${shop}`);
   const merchantService = new MerchantService();
   const collectionService = new CollectionService();
   const merchant = await merchantService.getMerchant({
@@ -46,7 +46,7 @@ export const autoSortingProcessor = async (job) => {
 
   await bulkOperationQueue.addBulk(jobs);
 
-  logger.info(`Scheduled ${jobs.length} push down jobs for shop ${shop}`);
+  // logger.info(`Scheduled ${jobs.length} push down jobs for shop ${shop}`);
 
   return { ...job.data };
 };

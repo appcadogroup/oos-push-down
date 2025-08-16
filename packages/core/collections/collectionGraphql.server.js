@@ -1,7 +1,10 @@
 // src/services/shopifyCollectionService.js
-import { getLogger, ShopifyGraphQLClient } from "../server.server.js";
+import { 
+  // getLogger, 
+  ShopifyGraphQLClient 
+} from "../server.server.js";
 
-const logger = getLogger('graphql/collection');
+// const logger = getLogger('graphql/collection');
 
 export class CollectionGraphql {
   constructor(admin) {
@@ -66,7 +69,7 @@ export class CollectionGraphql {
       extractor: "nodes",
     });
 
-    logger.info(`Fetched ${collections.length} collections from Shopify.`);
+    // logger.info(`Fetched ${collections.length} collections from Shopify.`);
 
     return collections;
   }
@@ -161,7 +164,7 @@ export class CollectionGraphql {
         const remainingCapacity = max - current;
 
         if (remainingCapacity < 10) {
-          logger.debug("Not enough capacity for more mutations. Backing off...");
+          // logger.debug("Not enough capacity for more mutations. Backing off...");
           await new Promise((resolve) => setTimeout(resolve, BACKOFF_TIME_MS)); // Wait for 1 second
         }
       }
@@ -182,9 +185,9 @@ export class CollectionGraphql {
       const cost = extensions?.cost;
 
       if (cost) {
-        logger.debug(
-          `Request cost: ${cost.requestedQueryCost}, Throttle status: ${JSON.stringify(extensions.cost.throttleStatus)}`,
-        );
+        // logger.debug(
+        //   `Request cost: ${cost.requestedQueryCost}, Throttle status: ${JSON.stringify(extensions.cost.throttleStatus)}`,
+        // );
       }
     }
 

@@ -1,7 +1,10 @@
 // src/services/shopifyProductService.js
-import { getLogger, ShopifyGraphQLClient } from "../server.server.js";
+import { 
+  // getLogger,
+  ShopifyGraphQLClient 
+  } from "../server.server.js";
 
-const logger = getLogger('graphql/product');
+// const logger = getLogger('graphql/product');
 
 export class ProductGraphql {
   constructor(admin) {
@@ -73,7 +76,7 @@ export class ProductGraphql {
       extractor: "nodes",
     })
 
-    logger.info(`Fetched ${products.length} products from Shopify.`);
+    // logger.info(`Fetched ${products.length} products from Shopify.`);
 
     return products;
 

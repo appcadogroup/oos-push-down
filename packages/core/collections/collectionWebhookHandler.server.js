@@ -1,5 +1,5 @@
 import {
-  getLogger,
+  // getLogger,
   CollectionGraphql,
   MerchantService,
   CollectionController,
@@ -13,7 +13,7 @@ import { JOB_NAMES } from "../jobs/constants.js"
 import { bulkOperationQueue } from "../jobs/queues/index.js";
 import { CollectionSorting } from "@prisma/client";
 
-const logger = getLogger('webhooks/collections');
+// const logger = getLogger('webhooks/collections');
 
 export class CollectionWebhookHandler {
   constructor({ payload, shop, admin }) {
@@ -195,7 +195,7 @@ export class CollectionWebhookHandler {
       );
     }
 
-    logger.info(`✅ Sucessfully updated collection ${id} ${title}.`);
+    // logger.info(`✅ Sucessfully updated collection ${id} ${title}.`);
   }
 
   getUpdateData(
@@ -231,9 +231,9 @@ export class CollectionWebhookHandler {
       !existingCollection.isActive &&
       formattedSortOrder !== existingCollection.currentSorting
     ) {
-      logger.debug(
-        `Update sorting rule if collection is inactive and sorting not same as existing sorting rule`,
-      );
+      // logger.debug(
+      //   `Update sorting rule if collection is inactive and sorting not same as existing sorting rule`,
+      // );
       updateData.currentSorting = formattedSortOrder;
     }
 

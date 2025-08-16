@@ -3,7 +3,7 @@ import prisma from "@acme/db";
 import { redis } from "@acme/redis"; // Import shared Redis client
 
 import {
-  getLogger,
+  // getLogger,
   BulkOperationGraphql,
 } from "@acme/core/server";
 
@@ -14,7 +14,7 @@ import {
   retrieveBulkOperationRestID,
 } from "@acme/core";
 
-const logger = getLogger('services/bulkOp');
+// const logger = getLogger('services/bulkOp');
 
 export class BulkOperationService {
   constructor(admin = null, db = prisma, redisClient = redis) {
@@ -94,10 +94,10 @@ export class BulkOperationService {
       if (userErrors?.length) {
         if (userErrors[0].code === "OPERATION_IN_PROGRESS") {
         } else {
-          logger.error(
-            `Error creating bulk operation for shop ${shop}:`,
-            userErrors,
-          );
+          // logger.error(
+          //   `Error creating bulk operation for shop ${shop}:`,
+          //   userErrors,
+          // );
           return;
         }
         // await this.releaseLock(shop);
@@ -112,9 +112,9 @@ export class BulkOperationService {
 
       const adminGraphqlID = bulkOperation.id;
       const operationID = retrieveBulkOperationRestID(adminGraphqlID);
-      logger.info(`Started bulk operation ${operationID}`);
+      // logger.info(`Started bulk operation ${operationID}`);
     } catch (error) {
-      logger.error(`Error processing bulk operation for shop ${shop}:`, error);
+      // logger.error(`Error processing bulk operation for shop ${shop}:`, error);
       // await this.releaseLock(shop);
       // await bulkOperationService.releaseBulkOperationLock(shop);
       throw error;

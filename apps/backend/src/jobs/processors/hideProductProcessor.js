@@ -8,7 +8,7 @@ import {
   ProductService,
   MerchantService,
   ProductGraphql,
-  getLogger,
+  // getLogger,
 } from "@acme/core/server";
 
 import {
@@ -17,7 +17,7 @@ import {
 } from "@acme/core";
 import { getAuthenticatedAdmin } from "../../app.js";
 
-const logger = getLogger("jobs/hideProduct");
+// const logger = getLogger("jobs/hideProduct");
 
 export const hideProductProcessor = async (job) => {
   const { shop, productID } = job.data;
@@ -26,7 +26,7 @@ export const hideProductProcessor = async (job) => {
     throw new Error(`Missing shop or productID in job data`);
   }
 
-  logger.info(`[Processor] ${shop} | ${productID}`);
+  // logger.info(`[Processor] ${shop} | ${productID}`);
 
   const admin = await getAuthenticatedAdmin(shop);
 
@@ -50,14 +50,14 @@ export const hideProductProcessor = async (job) => {
     return null;
   }
 
-  logger.debug(`[Processor] Hiding product | ${hidingChannel}`)
+  // logger.debug(`[Processor] Hiding product | ${hidingChannel}`)
 
   if (hidingChannel === HidingChannel.ONLINE_STORE) {
     const publication = await productService.getFirstPublications({
       where: { shop },
     });
     if (!publication) {
-      logger.info(`No publication found`);
+      // logger.info(`No publication found`);
       return null;
     }
 
@@ -73,9 +73,9 @@ export const hideProductProcessor = async (job) => {
       ],
     });
 
-    logger.debug(`[Processor] Unpublished product | ${hidingChannel}`, {
-      result,
-    });
+    // logger.debug(`[Processor] Unpublished product | ${hidingChannel}`, {
+    //   result,
+    // });
   } else if (hidingChannel === HidingChannel.ALL) {
     const result = await productGraphql.updateProduct({
       id: productID,
@@ -83,9 +83,9 @@ export const hideProductProcessor = async (job) => {
         status: "DRAFT",
       },
     });
-    logger.debug(`[Processor] Updated product status to DRAFT | ${hidingChannel}`, {
-      result,
-    });
+    // logger.debug(`[Processor] Updated product status to DRAFT | ${hidingChannel}`, {
+    //   result,
+    // });
   }
 
   await productService.updateProduct(productID, {
@@ -99,9 +99,9 @@ export const hideProductProcessor = async (job) => {
       tags: hiddenProductTag,
     });
 
-    logger.info(`🏷️ Tagged product as hidden`, {
-      tag: hiddenProductTag,
-    });
+    // logger.info(`🏷️ Tagged product as hidden`, {
+    //   tag: hiddenProductTag,
+    // });
   }
 
   return { ...job.data };

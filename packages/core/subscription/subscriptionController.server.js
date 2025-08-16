@@ -1,5 +1,9 @@
 // src/controllers/subscriptionController.js
-import { getLogger, MerchantService, SubscriptionService } from "@acme/core/server";
+import { 
+  // getLogger, 
+  MerchantService, 
+  SubscriptionService 
+} from "@acme/core/server";
 import {
   ADVANCED_PLAN,
   ANNUAL_ADVANCED_PLAN,
@@ -14,7 +18,7 @@ import {
   STARTER_PLAN,
 } from "@acme/core/server";
 
-const logger = getLogger('controller/subscription');
+// const logger = getLogger('controller/subscription');
 
 export class SubscriptionController {
   constructor() {
@@ -43,13 +47,13 @@ export class SubscriptionController {
         },
       });
       const subscription = billingCheck.appSubscriptions[0];
-      logger.debug(
-        `Shop is on plan ${subscription.name} (id ${subscription.id})`,
-      );
+      // logger.debug(
+      //   `Shop is on plan ${subscription.name} (id ${subscription.id})`,
+      // );
       return { plan: { ...subscription } };
     } catch (error) {
       if (error.message === "No active plan") {
-        logger.debug(`Shop doesnt not have any active plans.`);
+        // logger.debug(`Shop doesnt not have any active plans.`);
         return {
           plan: {
             name: FREE_PLAN,

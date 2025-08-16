@@ -6,7 +6,7 @@ import {
   BulkOperationGraphql,
   CollectionService,
   MerchantService,
-  getLogger,
+  // getLogger,
 } from "@acme/core/server";
 
 import {
@@ -19,13 +19,13 @@ import {
 } from "@acme/core";
 import { getAuthenticatedAdmin } from "../../app.js";
 
-const logger = getLogger('jobs/pushDown');
+// const logger = getLogger('jobs/pushDown');
 
 export const pushDownProcessor = async (job) => {
   const { shop, collectionID } = job.data;
-  logger.info(
-    `[Processor] ${shop} | ${collectionID}`,
-  );
+  // logger.info(
+  //   `[Processor] ${shop} | ${collectionID}`,
+  // );
   const admin = await getAuthenticatedAdmin(shop);
   
 
@@ -43,9 +43,9 @@ export const pushDownProcessor = async (job) => {
     !merchant.activePlan ||
     SubscriptionUtils.isOverPlanLimit(merchant, merchant.activePlan)
   ) {
-    logger.debug(
-      "[Processor] Merchant is not found or over plan limit, skipping push down job",
-    );
+    // logger.debug(
+    //   "[Processor] Merchant is not found or over plan limit, skipping push down job",
+    // );
     return { ...job.data };
   }
 
@@ -121,12 +121,12 @@ export const pushDownProcessor = async (job) => {
     return { ...job.data, operationID };
   } catch (error) {
     if (error.message == "Collection not found") {
-      logger.debug(
-        `Collection not found for collectionID ${collectionID}, mark the job as completed`,
-      );
+      // logger.debug(
+      //   `Collection not found for collectionID ${collectionID}, mark the job as completed`,
+      // );
       return { ...job.data };
     }
-    logger.error(`Error processing push down job for shop ${shop}: ${error}`);
+    // logger.error(`Error processing push down job for shop ${shop}: ${error}`);
     throw error;
   }
 };
