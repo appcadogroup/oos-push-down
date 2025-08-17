@@ -34,4 +34,5 @@ COPY --from=builder /app/packages/core packages/core
 COPY --from=builder /app/packages/db packages/db
 COPY --from=builder /app/packages/redis packages/redis
 EXPOSE 3012
-CMD ["node","--inspect=0.0.0.0:9999", "apps/backend/dist/server.js"]
+EXPOSE 9229
+CMD ["node","--inspect", "apps/backend/dist/server.js"]

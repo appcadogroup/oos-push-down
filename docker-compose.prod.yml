@@ -30,7 +30,7 @@ services:
         --cpu-prof-interval=1000
     restart: unless-stopped
     ports:
-    - "9999:9999" # expose inspector port
+    - "9229:9229" # expose inspector port
     depends_on:
       migrate:
         condition: service_completed_successfully
