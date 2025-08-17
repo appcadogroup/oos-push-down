@@ -30,7 +30,7 @@ services:
         --cpu-prof-interval=1000
     restart: unless-stopped
     ports:
-    - "9229:9229" # expose inspector port
+    - "127.0.0.1:9229:9229"   # host binds ONLY on localhost
     depends_on:
       migrate:
         condition: service_completed_successfully
