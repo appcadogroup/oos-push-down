@@ -25,12 +25,17 @@ services:
       APP_URL: https://${APP_HOST}
       NODE_OPTIONS: >-
         --max-old-space-size=256
+        --inspect=0.0.0.0:9229
         --cpu-prof
         --cpu-prof-dir=/app/profiles
         --cpu-prof-interval=1000
+        # (optional) turn on GC tracing briefly if you suspect GC thrash:
+        # --trace-gc
     restart: unless-stopped
     ports:
     - "127.0.0.1:9229:9229"   # host binds ONLY on localhost
+    volumes:
+      - ./profiles:/app/profiles
     depends_on:
       migrate:
         condition: service_completed_successfully
