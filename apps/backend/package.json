@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/server.js",
-    "dev": "nodemon server.js",
+    "dev": "nodemon src/server.js --inspect=0.0.0.0:9999",
     "build": "babel src --out-dir dist --extensions .js,.jsx,.ts,.tsx"
   },
   "author": "",
@@ -30,7 +30,6 @@
     "bullmq": "^5.56.10",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "heapdump": "^0.3.15",
     "router": "^2.2.0"
   }
 }

@@ -8,7 +8,6 @@ import {
 
 import { SubscriptionUtils, JOB_NAMES } from "@acme/core";
 
-
 // const logger = getLogger('jobs/autoSorting');
 
 export const autoSortingProcessor = async (job) => {

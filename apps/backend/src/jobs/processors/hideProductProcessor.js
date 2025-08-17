@@ -31,7 +31,8 @@ export const hideProductProcessor = async (job) => {
   const admin = await getAuthenticatedAdmin(shop);
 
   if (!admin) {
-    throw new Error(`Admin not found for shop ${shop}`);
+    console.error(`Admin not found for shop ${shop}`);
+    return { ...job.data };
   }
 
   const merchantService = new MerchantService();

@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config();
 import app from './app.js';
 import './jobs/workers/index.js';
-import "./ops/heapdump.js";
+// import "./ops/heapdump.js";
 import "./ops/cpuprof.js";
 
 const PORT = process.env.EXPRESS_PORT || 3012;

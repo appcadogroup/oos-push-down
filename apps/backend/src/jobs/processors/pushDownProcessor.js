@@ -101,6 +101,7 @@ export const pushDownProcessor = async (job) => {
 
       const bulkOperationID = bulkOperation?.id;
       if (!bulkOperationID) {
+        
         throw new Error(`Bulk operation ID not found`);
       }
 
