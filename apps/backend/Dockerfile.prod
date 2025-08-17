@@ -35,4 +35,6 @@ COPY --from=builder /app/packages/db packages/db
 COPY --from=builder /app/packages/redis packages/redis
 EXPOSE 3012
 EXPOSE 9229
-CMD ["node","--inspect=0.0.0.0:9229","apps/backend/dist/server.js", "--max-old-space-size=256", "--cpu-prof", "--cpu-prof-dir=/app/profiles", "--cpu-prof-interval=1000"]
+
+# Keep CMD simple. Put all Node flags in NODE_OPTIONS via compose.
+CMD ["node","apps/backend/dist/server.js"]
