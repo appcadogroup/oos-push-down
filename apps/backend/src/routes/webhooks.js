@@ -14,6 +14,9 @@ router.post('/products', express.text({type: '*/*'}), verifyShopifyWebhook, asyn
     const { topic, webhookId, domain } = req.webhooks;
     try {
         const admin = await getAuthenticatedAdmin(domain);
+        if (!admin) {
+            return res.status(200).end();
+        }
         const handler = new ProductWebhookHandler({ payload, shop: domain, admin });
         console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
         await handler.handle(topic);
@@ -32,6 +35,9 @@ router.post('/collections', express.text({type: '*/*'}), verifyShopifyWebhook, a
     try {
         console.log(`Authenticating ${topic} | ${webhookId} | ${domain}`);
         const admin = await getAuthenticatedAdmin(domain);
+        if (!admin) {
+            return res.status(200).end();
+        }
         console.log(`Authenticated ${topic} | ${webhookId} | ${domain}`);
         const handler = new CollectionWebhookHandler({ payload, shop: domain, admin });
         console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
@@ -49,6 +55,9 @@ router.post('/bulk-operations', express.text({type: '*/*'}), verifyShopifyWebhoo
     const { topic, webhookId, domain } = req.webhooks;
     try {
         const admin = await getAuthenticatedAdmin(domain);
+        if (!admin) {
+            return res.status(200).end();
+        }
         const handler = new BulkOperationWebhookHandler({ payload, shop: domain, admin });
         console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
         await handler.handle(topic);
@@ -65,6 +74,9 @@ router.post('/apps', express.text({type: '*/*'}), verifyShopifyWebhook, async (r
     const { topic, webhookId, domain } = req.webhooks;
     try {
         const admin = await getAuthenticatedAdmin(domain);
+        if (!admin) {
+            return res.status(200).end();
+        }
         const handler = new AppWebhookHandler({ payload, shop: domain, admin });
         console.log(`Webhook ${topic} | ${webhookId} | ${domain}`);
         await handler.handle(topic);
