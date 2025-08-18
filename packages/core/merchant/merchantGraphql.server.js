@@ -16,7 +16,7 @@ export class MerchantGraphql {
 
     const { data, extensions } = await this.admin.executeQuery(query);
 
-    return { shop: data.shop, extensions };
+    return { shop: data?.shop, extensions };
   }
 
 

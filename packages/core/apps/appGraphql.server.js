@@ -32,7 +32,7 @@ export class AppGraphql {
       handle
     });
     return {
-      app: data.appByHandle,
+      app: data?.appByHandle,
       extensions,
     };
   }

@@ -23,7 +23,7 @@ export class ProductGraphql {
       id: `gid://shopify/Product/${id}`,
     });
 
-    return { product: data.product, extensionss };
+    return { product: data?.product, extensionss };
   }
 
   async updateProduct({ id, data }) {
@@ -94,7 +94,7 @@ export class ProductGraphql {
       query: searchQuery,
     });
 
-    return { productsCount: data.productsCount.count, extensions };
+    return { productsCount: data?.productsCount.count, extensions };
   }
 
   async getProductTags({ first = 5000, after = null }) {
@@ -114,7 +114,7 @@ export class ProductGraphql {
       after,
     });
 
-    return { productTags: data.productTags.nodes, extensions };
+    return { productTags: data?.productTags.nodes, extensions };
   }
 
   async getProductVariants({ searchQuery, fields = `id\ninventoryPolicy` }) {
@@ -134,7 +134,7 @@ export class ProductGraphql {
     const { data, extensions } = await this.admin.executeQuery(query, {
       query: searchQuery,
     });
-    return { productVariants: data.productVariants.nodes, extensions };
+    return { productVariants: data?.productVariants.nodes, extensions };
   }
 
   async getAllProductTags() {
@@ -180,7 +180,7 @@ export class ProductGraphql {
       query,
       variables,
     );
-    return { productID: data.tagsAdd.node.id, extensions };
+    return { productID: data?.tagsAdd.node.id, extensions };
   }
 
   async removeProductTags({ id, tags }) {
@@ -205,7 +205,7 @@ export class ProductGraphql {
       variables,
     );
 
-    return { productID: data.tagsRemove.node.id, extensions };
+    return { productID: data?.tagsRemove.node.id, extensions };
   }
 
   async getPublications() {
@@ -222,7 +222,7 @@ export class ProductGraphql {
 
     const { data, extensions } = await this.admin.executeQuery(query, {});
 
-    return { publications: data.publications.nodes, extensions };
+    return { publications: data?.publications.nodes, extensions };
   }
 
   async getCatalogs() {
@@ -240,7 +240,7 @@ export class ProductGraphql {
 
     const { data, extensions } = await this.admin.executeQuery(query, {});
 
-    return { catalogs: data.catalogs.nodes, extensions };
+    return { catalogs: data?.catalogs.nodes, extensions };
   }
   
   async unpublishProduct({ id, productPublications, fields = "id\nlegacyResourceId" }) {
@@ -267,7 +267,7 @@ export class ProductGraphql {
       query,
       variables,
     );
-    return { product: data.productUnpublish.product, extensions };
+    return { product: data?.productUnpublish.product, extensions };
   }
 
   async publishProduct({ id, productPublications, fields = "id\nlegacyResourceId" }) {
@@ -293,6 +293,6 @@ export class ProductGraphql {
       query,
       variables,
     );
-    return { product: data.productPublish.product, extensions };
+    return { product: data?.productPublish.product, extensions };
   }
 }

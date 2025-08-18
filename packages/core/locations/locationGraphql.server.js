@@ -18,7 +18,7 @@ export class LocationGraphql {
       id: `gid://shopify/Location/${id}`,
     });
 
-    return { location: data.location, extensions };
+    return { location: data?.location, extensions };
   }
 
 
@@ -58,6 +58,6 @@ export class LocationGraphql {
       query: searchQuery,
     });
 
-    return { locationsCount: data.locationsCount.count, extensions };
+    return { locationsCount: data?.locationsCount.count, extensions };
   }
 }

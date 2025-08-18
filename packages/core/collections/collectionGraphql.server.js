@@ -39,7 +39,7 @@ export class CollectionGraphql {
       query: searchQuery,
     });
     return {
-      collections: data.collections.edges.map((edge) => edge.node),
+      collections: data?.collections.edges.map((edge) => edge.node),
       extensions,
     };
   }
@@ -86,7 +86,7 @@ export class CollectionGraphql {
     const { data, extensions } = await this.admin.executeQuery(query, {
       id: `gid://shopify/Collection/${id}`,
     });
-    return { collection: data.collection, extensions };
+    return { collection: data?.collection, extensions };
   }
 
   async getCollectionCount() {
@@ -98,7 +98,7 @@ export class CollectionGraphql {
       }
     `;
     const { data, extensions } = await this.admin.executeQuery(query);
-    return { collectionCount: data.collectionsCount.count, extensions };
+    return { collectionCount: data?.collectionsCount.count, extensions };
   }
 
   async updateCollection({ input, fields = "id\ntitle\nhandle" }) {
@@ -119,7 +119,7 @@ export class CollectionGraphql {
     const { data, extensions } = await this.admin.executeQuery(query, {
       input,
     });
-    return { collection: data.collectionUpdate.collection, extensions };
+    return { collection: data?.collectionUpdate.collection, extensions };
   }
 
   async updateCollections({
@@ -220,9 +220,9 @@ export class CollectionGraphql {
       });
 
       if (data?.collectionReorderProducts) {
-        results.push(data.collectionReorderProducts);
-        if (data.collectionReorderProducts.userErrors?.length) {
-          userErrors.push(...data.collectionReorderProducts.userErrors);
+        results.push(data?.collectionReorderProducts);
+        if (data?.collectionReorderProducts.userErrors?.length) {
+          userErrors.push(...data?.collectionReorderProducts.userErrors);
         }
       }
 

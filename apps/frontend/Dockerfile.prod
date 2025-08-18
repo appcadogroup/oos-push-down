@@ -16,7 +16,6 @@ RUN npm install --workspaces
 # copy sources (includes vite.config.ts)
 COPY . .
 
-
 # Ensure Prisma client exists
 RUN npm run -w packages/db prisma:generate
 
