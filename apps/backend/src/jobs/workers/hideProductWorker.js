@@ -36,7 +36,7 @@ queueEvents.on('completed', async ({jobId, returnvalue}) => {
 });
 
 queueEvents.on('failed', async ({jobId, failedReason}) => {
-    console.error(`Job ${jobId} failed`, failedReason);
+    console.error(`[hide-product] Job ${jobId} failed`, failedReason);
     const job = await Job.fromId(queue, jobId);
     const { shop, productID } = job.data;
 

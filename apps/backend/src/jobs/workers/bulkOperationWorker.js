@@ -56,6 +56,6 @@ queueEvents.on("duplicated", async ({ jobId }) => {
 });
 
 queueEvents.on("failed", async ({ jobId, failedReason }) => {
-  console.error(`Job ${jobId} failed ${failedReason}`, failedReason);
+  console.error(`[bulk-operation] Job ${jobId} failed ${failedReason}`, failedReason);
   // const job = await Job.fromId(queue, jobId);
 });
