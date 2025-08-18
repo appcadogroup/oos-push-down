@@ -28,7 +28,10 @@ export const pushDownProcessor = async (job) => {
   // );
 
   try {
+    console.log(`[Pushdown Processor] authenticating admin... | ${shop}`);
     const admin = await getAuthenticatedAdmin(shop);
+
+    console.log(`[Pushdown Processor] authenticated admin ${admin} | ${shop}`);
 
     if (!admin) {
       return { ...job.data };
@@ -101,7 +104,7 @@ export const pushDownProcessor = async (job) => {
 
       const bulkOperationID = bulkOperation?.id;
       if (!bulkOperationID) {
-        
+
         throw new Error(`Bulk operation ID not found`);
       }
 

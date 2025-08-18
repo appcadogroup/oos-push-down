@@ -15,7 +15,7 @@ const worker = new Worker(
         return await pushDownProcessor(job);
       default:
         // logger.debug(`Unknown job name: ${job.name}`);
-        return new Response();
+        return null;
     }
   },
   {
