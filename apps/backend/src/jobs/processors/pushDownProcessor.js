@@ -57,6 +57,7 @@ export const pushDownProcessor = async (job) => {
       return { ...job.data };
     }
 
+
     // Check if we can process immediately
     const { currentBulkOperation } =
       await bulkOperationGraphql.getCurrentOperation();
@@ -71,7 +72,8 @@ export const pushDownProcessor = async (job) => {
         useCache: false,
       });
       if (!collection) {
-        throw new Error(`Collection not found`);
+        console.log(`Collection not found`);
+        return { ...job.data };
       }
       const currentSortingFilter =
         ProductCollectionSortValue[collection.currentSorting];
@@ -128,12 +130,6 @@ export const pushDownProcessor = async (job) => {
 
       return { ...job.data, operationID };
     } catch (error) {
-      if (error.message == "Collection not found") {
-        // logger.debug(
-        //   `Collection not found for collectionID ${collectionID}, mark the job as completed`,
-        // );
-        return { ...job.data };
-      }
       // logger.error(`Error processing push down job for shop ${shop}: ${error}`);
       throw error;
     }

@@ -22,7 +22,7 @@ export class BulkOperationGraphql {
     `;
 
     const { data, extensions } = await this.admin.executeQuery(query, {});
-    return { currentBulkOperation: data.currentBulkOperation, extensions };
+    return { currentBulkOperation: data?.currentBulkOperation, extensions };
   }
 
   // Bulk Operation Query Collection Products
@@ -102,8 +102,8 @@ export class BulkOperationGraphql {
     // }
 
     return {
-      bulkOperation: data.bulkOperationRunQuery.bulkOperation,
-      userErrors: data.bulkOperationRunQuery.userErrors,
+      bulkOperation: data?.bulkOperationRunQuery.bulkOperation,
+      userErrors: data?.bulkOperationRunQuery.userErrors,
       extensions,
     };
   }
@@ -198,6 +198,6 @@ export class BulkOperationGraphql {
     const { data, extensions } = await this.admin.executeQuery(query, {
       id: bulkOperationID,
     });
-    return { bulkOperation: data.node, extensions };
+    return { bulkOperation: data?.node, extensions };
   }
 }
