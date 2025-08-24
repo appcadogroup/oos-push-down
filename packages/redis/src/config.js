@@ -34,9 +34,11 @@ export const COMMON = {
   enableReadyCheck: true,
   username: REDIS_USERNAME,
   password: REDIS_PASSWORD,
+  tls: true, 
 };
 
 // BullMQ needs this to avoid command queue stalls for blocking ops
 export const BULL_PROFILE = {
-  maxRetriesPerRequest: null
+  maxRetriesPerRequest: null,
+  enableTLSForSentinelMode: false
 };

@@ -15,7 +15,7 @@ export function startWorker(queueName, processor, {
 
   const w = new Worker(queueName, processor, {
     connection: connectionOptions(),
-    prefix: queuePrefix(),
+    // prefix: queuePrefix(),
     concurrency,
     lockDuration,
     limiter,

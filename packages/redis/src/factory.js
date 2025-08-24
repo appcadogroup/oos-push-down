@@ -16,7 +16,6 @@ function wireClient(role, client) {
 
 function makeClient(role) {
   if (REDIS_MODE === "standalone") {
-    console.log(buildStandaloneOpts());
     return wireClient(role, new IORedis(buildStandaloneOpts()));
   }
   if (REDIS_MODE === "sentinel") {
@@ -33,7 +32,7 @@ function makeClient(role) {
 
 export function getClient(role = "default") {
   if (REG.clients.has(role)) {
-    console.log(`Using global definition for Redis client: ${role}`);
+    // console.log(`Using global definition for Redis client: ${role}`);
     return REG.clients.get(role);
   }
   const c = makeClient(role);

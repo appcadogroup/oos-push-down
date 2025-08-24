@@ -5,7 +5,7 @@ import { connectionOptions, getProducerRedis, queuePrefix } from "./connection.j
 
 export function getQueue(name, opts = {}) {
   if (REG.queues.has(name)) {
-    console.log(`Using global queue for ${name}`);
+    // console.log(`Using global queue for ${name}`);
     return REG.queues.get(name);
   }
 

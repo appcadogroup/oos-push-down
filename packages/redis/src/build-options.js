@@ -34,7 +34,9 @@ export function buildClusterNodes() {
 // For cluster, prefer a non-blocking use-case; BullMQ workers with blocking
 // ops are best on standalone/sentinel.
 export function buildBullConnectionOptions() {
-  if (REDIS_MODE === "standalone") return { ...buildStandaloneOpts(BULL_PROFILE) };
+  if (REDIS_MODE === "standalone") {
+    return { ...buildStandaloneOpts(BULL_PROFILE) };
+  }
   if (REDIS_MODE === "sentinel")   return { ...buildSentinelOpts(BULL_PROFILE) };
   if (REDIS_MODE === "cluster") {
     // You *can* run producers on cluster; workers with blocking ops are limited.
