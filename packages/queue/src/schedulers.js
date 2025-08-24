@@ -11,7 +11,7 @@ import { QUEUES } from "./constant.js";
  *   - removeOnFail: how many fails to keep (default 20)
  */
 export async function upsertAutoSortingSchedule(shop, {
-  pattern = "* * * * *", // Every 1 hour
+  pattern = "0 * * * *", // Every 1 hour
   removeOnComplete = 10,
   removeOnFail = 20,
 } = {}) {
