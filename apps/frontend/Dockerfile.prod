@@ -7,7 +7,7 @@ COPY apps/frontend/package.json apps/frontend/
 COPY packages/db/package.json packages/db/
 COPY packages/redis/package.json packages/redis/
 COPY packages/core/package.json packages/core/
-
+COPY packages/queue/package.json packages/queue/
 # copy prisma schema early so postinstall can find it
 COPY packages/db/prisma packages/db/prisma
 
