@@ -46,7 +46,7 @@ export class BulkOperationWebhookHandler {
     }
   }
 
-  async handleBulkOperationFinish() {
+  // async handleBulkOperationFinish() {
     // const {
     //   admin_graphql_api_id,
     //   status: rawStatus,
@@ -233,7 +233,7 @@ export class BulkOperationWebhookHandler {
 
     // // small return for logging/metrics
     // return { processed, moves: minimalMoves.length, oos: overrideOOS.length };
-  }
+  // }
 
   async handleBulkOperationFinish() {
     const {
