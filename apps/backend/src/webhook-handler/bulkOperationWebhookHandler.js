@@ -290,6 +290,8 @@ export class BulkOperationWebhookHandler {
       return;
     }
 
+    console.log(`Fetching bulk operation data from URL ${url}`);
+
     const { data: streamData } = await axios.get(url, {
       responseType: "stream",
     });
