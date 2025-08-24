@@ -23,6 +23,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@acme/core": "1.0.0",
     "@heroicons/react": "^2.2.0",
     "@material-tailwind/react": "^3.0.0-beta.24",
     "@remix-run/fs-routes": "^2.15.0",
@@ -38,14 +39,11 @@
     "express": "^4.21.2",
     "graphql-request": "^7.1.2",
     "iconoir-react": "^7.11.0",
-    "ioredis": "^5.6.0",
     "isbot": "^5.1.0",
     "postcss": "^8.5.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-switch": "^7.1.0",
-    "redis": "^4.7.0",
-    "shared": "file:../shared",
     "tailwindcss": "^3.4.17",
     "vite-tsconfig-paths": "^5.0.1",
     "winston": "^3.17.0"

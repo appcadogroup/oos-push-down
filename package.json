@@ -3,10 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "workspaces": ["apps/*", "apps/frontend/extensions/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "apps/frontend/extensions/*", 
+    "packages/*"
+  ],
   "scripts": {
+    "dev:worker": "npm run -w apps/worker dev",
     "dev:backend": "npm run -w apps/backend dev",
-    "dev:frontend": "npm run -w apps/frontend dev -- --tunnel-url='https://ricotse.ngrok.dev:3011' --path ./",
+    "dev:frontend": "npm run -w apps/frontend dev -- --path ./ --tunnel-url 'https://ricotse.ngrok.dev:3011'",
     "db:generate": "npm run -w packages/db prisma:generate",
     "db:migrate": "npm run -w packages/db migrate:dev",
     "build:frontend": "npm run -w apps/frontend build --root ./ --config ./vite.config.js",

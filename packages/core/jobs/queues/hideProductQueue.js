@@ -1,5 +1,6 @@
 import { Queue } from "bullmq";
-import { redis } from "@acme/redis";
+import { getClient } from "@acme/redis"; // Import shared Redis client
+const redis = getClient(); // same singleton every import
 
 // This queue is responsible for hiding products in Shopify collections
 // based on the bulk operation results.

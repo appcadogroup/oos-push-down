@@ -27,7 +27,7 @@ import {
 } from "@shopify/polaris";
 import { CheckIcon } from "@shopify/polaris-icons";
 import { memo, useCallback, useEffect, useState } from "react";
-import { SubscriptionUtils } from '@acme/core';
+import { SubscriptionUtils } from "@acme/core";
 // import { getLogger } from '@acme/core/server';
 
 // const logger = getLogger("frontend");
@@ -142,7 +142,7 @@ export const action = async ({ request }) => {
   let { shop, isOnline } = session;
   shop = shop.replace(".myshopify.com", "");
 
-  let isAdmin = false;  
+  let isAdmin = false;
 
   if (shop === "advanced-collection-sort.myshopify.com") {
     isAdmin = true;
@@ -164,7 +164,7 @@ export const action = async ({ request }) => {
           }),
       });
 
-      // logger.debug(`Upgrade result`, upgradeResult);
+    // logger.debug(`Upgrade result`, upgradeResult);
     case "cancel":
       try {
         const billingCheck = await billing.require({
@@ -241,10 +241,9 @@ export const loader = async ({ request }) => {
     );
     const { action } = matchedPlanData;
 
- 
     return {
-      billing, 
-      plan: { ...subscription, action: action, index }
+      billing,
+      plan: { ...subscription, action: action, index },
     };
   } catch (error) {
     if (error.message === "No active plan") {
@@ -342,7 +341,10 @@ export default function PricingPage() {
 
   const isCurrentPlan = useCallback(
     (planItem) => {
-      return SubscriptionUtils.getBasePlanName(planItem.name) === SubscriptionUtils.getBasePlanName(plan.name);
+      return (
+        SubscriptionUtils.getBasePlanName(planItem.name) ===
+        SubscriptionUtils.getBasePlanName(plan.name)
+      );
     },
     [plan],
   );
@@ -352,7 +354,9 @@ export default function PricingPage() {
       if (isCurrentPlan(planItem)) {
         return isMatchedRecurring(planItem)
           ? "Current Plan"
-          : planItem.name.includes("Free") ? 'Current Plan' : `Switch to ${recurringMethod}`;
+          : planItem.name.includes("Free")
+            ? "Current Plan"
+            : `Switch to ${recurringMethod}`;
       }
       return "Select";
     },
@@ -421,7 +425,11 @@ export default function PricingPage() {
               <Button
                 variant="primary"
                 size="large"
-                disabled={planItem.name.includes("Free") ? currentPlan : (currentPlan && matchedRecurring)}
+                disabled={
+                  planItem.name.includes("Free")
+                    ? currentPlan
+                    : currentPlan && matchedRecurring
+                }
                 onClick={() => onSelectPlan(planItem)}
               >
                 {getButtonLabel(planItem)}
@@ -435,55 +443,54 @@ export default function PricingPage() {
 
   return (
     <Page title="Pricing">
-      <Card
-        title={`Current Plan`}
-        illustration="https://cdn.shopify.com/s/assets/admin/checkout/settings-customizecart-705f57c725ac05be5a34ec20c05b94298cb8afd10aac7bd9c7ad02030f48cfa0.svg"
-      >
-        <BlockStack gap="200">
-          <Text>
-            You're currently on the <strong>{plan?.name}</strong> plan. Upgrade
-            to higher plan to unlock more products and collections limit.
+      <BlockStack gap="400">
+        <Card
+          title={`Current Plan`}
+          illustration="https://cdn.shopify.com/s/assets/admin/checkout/settings-customizecart-705f57c725ac05be5a34ec20c05b94298cb8afd10aac7bd9c7ad02030f48cfa0.svg"
+        >
+          <BlockStack gap="200">
+            <Text>
+              You're currently on the <strong>{plan?.name}</strong> plan.
+              Upgrade to higher plan to unlock more products and collections
+              limit.
+            </Text>
 
-          </Text>
+            {plan?.name !== "Free subscription" && (
+              <InlineStack align="start">
+                <Button
+                  onClick={() => handleCancel(plan)}
+                  tone="critical"
+                  variant="secondary"
+                  fullWidth={false}
+                >
+                  Cancel Subscription
+                </Button>
+              </InlineStack>
+            )}
+          </BlockStack>
+        </Card>
 
-          {plan?.name !== "Free subscription" && (
-            <InlineStack align="start">
+        <Box align="center">
+          <ButtonGroup gap="500" fullWidth size="large">
+            {["Monthly", "Yearly"].map((method) => (
               <Button
-                onClick={() => handleCancel(plan)}
-                tone="critical"
-                variant="secondary"
-                fullWidth={false}
+                key={method}
+                pressed={recurringMethod === method}
+                variant={recurringMethod === method ? "primary" : "secondary"}
+                onClick={() => onChangeRecurringMethod(method)}
               >
-                Cancel Subscription
+                {method}
               </Button>
-            </InlineStack>
-          )}
-        </BlockStack>
-      </Card>
+            ))}
+          </ButtonGroup>
+        </Box>
 
-      <Box paddingBlock="200">
-        <Divider />
-      </Box>
-
-      <Box align="center">
-        <ButtonGroup variant="segmented">
-          {["Monthly", "Yearly"].map((method) => (
-            <Button
-              key={method}
-              pressed={recurringMethod === method}
-              onClick={() => onChangeRecurringMethod(method)}
-            >
-              {method}
-            </Button>
+        <Grid>
+          {PLAN_DATA.map((planItem) => (
+            <PlanCard key={planItem.name} planItem={planItem} />
           ))}
-        </ButtonGroup>
-      </Box>
-
-      <Grid>
-        {PLAN_DATA.map((planItem) => (
-          <PlanCard key={planItem.name} planItem={planItem} />
-        ))}
-      </Grid>
+        </Grid>
+      </BlockStack>
     </Page>
   );
 }

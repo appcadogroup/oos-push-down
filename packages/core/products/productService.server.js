@@ -1,5 +1,7 @@
 // src/services/productService.js
-import { redis } from "@acme/redis"; // Import shared Redis client
+import { getClient } from "@acme/redis"; // Import shared Redis client
+const redis = getClient(); // same singleton every import
+
 import prisma from "@acme/db"; // Import shared Prisma client
 
 export class ProductService {

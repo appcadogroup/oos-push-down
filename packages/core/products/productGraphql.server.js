@@ -23,7 +23,7 @@ export class ProductGraphql {
       id: `gid://shopify/Product/${id}`,
     });
 
-    return { product: data?.product, extensionss };
+    return { product: data?.product, extensions };
   }
 
   async updateProduct({ id, data }) {

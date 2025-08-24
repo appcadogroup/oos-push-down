@@ -1,5 +1,7 @@
 // src/services/collectionService.js
-import { redis } from "@acme/redis";
+import { getClient } from "@acme/redis"; // Import shared Redis client
+const redis = getClient(); // same singleton every import
+
 import { retrieveAdminLegacyResourceID } from "@acme/core";
 import prisma from "@acme/db";
 

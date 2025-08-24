@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "main": "./client.sever.js",
+  "main": "src/index.js",
   "exports": {
     ".": {
-      "default": "./client.server.js"
+      "default": "./src/index.js"
     }
   },
   "dependencies": {

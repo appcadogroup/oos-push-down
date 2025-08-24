@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/server.js",
-    "dev": "nodemon src/server.js --inspect=0.0.0.0:9999",
+    "dev": "nodemon src/server.js",
     "build": "babel src --out-dir dist --extensions .js,.jsx,.ts,.tsx"
   },
   "author": "",
@@ -22,7 +22,9 @@
   "dependencies": {
     "@acme/core": "1.0.0",
     "@acme/db": "1.0.0",
+    "@acme/queue": "^1.0.0",
     "@acme/redis": "1.0.0",
+    "@acme/shopify-auth": "1.0.0",
     "@shopify/shopify-api": "^11.14.1",
     "@shopify/shopify-app-session-storage-prisma": "^6.0.9",
     "axios": "^1.11.0",

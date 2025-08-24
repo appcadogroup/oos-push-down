@@ -80,14 +80,14 @@ export default function DashboardPage() {
         </Layout.Section>
 
         {/* Section divider with helper text */}
-        <Layout.Section>
+        {/* <Layout.Section>
           <Divider />
           <InlineStack align="center" gap="200" wrap>
             <Text tone="subdued" variant="bodyMd" fontWeight="bold">
               Check available customizations
             </Text>
           </InlineStack>
-        </Layout.Section>
+        </Layout.Section> */}
 
         {/* Two feature tiles 
         <Layout.Section>

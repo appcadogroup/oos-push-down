@@ -1,5 +1,7 @@
 import { Queue } from "bullmq";
-import { redis } from "@acme/redis";
+import { getClient } from "@acme/redis"; // Import shared Redis client
+const redis = getClient(); // same singleton every import
+
 
 export const sortingQueue = new Queue('auto-sorting', {
     connection: redis,

@@ -164,10 +164,10 @@ const shopify = shopifyApp({
           await productController.syncStorePublications(shop);
           // logger.info(`Shop ${shop} authenticated and setup successfully`);
         } catch (error) {
-          // logger.error(`Error during afterAuth hook: ${error.message}`, {
-          //   shop: session.shop,
-          //   error: error,
-          // });
+          console.error(`Error during afterAuth hook: ${error.message}`, {
+            shop: session.shop,
+            error: error,
+          });
         }
        
       }

@@ -33,7 +33,7 @@ services:
         # --trace-gc
     restart: unless-stopped
     ports:
-    - "127.0.0.1:9229:9229"   # host binds ONLY on localhost
+      - "127.0.0.1:9229:9229"   # host binds ONLY on localhost
     volumes:
       - ./profiles:/app/profiles
     depends_on:
@@ -69,6 +69,13 @@ services:
     depends_on:
       backend:
         condition: service_started
+
+  worker:
+    build:
+      context: .
+      dockerfile: apps/worker/Dockerfile.dev
+    container_name: worker
+    env_file: .env.prod
 
   # TLS terminator + reverse proxy
   nginx:

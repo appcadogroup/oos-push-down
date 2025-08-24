@@ -1,4 +1,4 @@
-import { shopify } from "./app.js";
+import { shopify } from "@acme/shopify-auth";
 
 // Middleware to verify webhook HMAC
 export async function verifyShopifyWebhook(req, res, next) {

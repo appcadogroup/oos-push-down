@@ -1,6 +1,7 @@
 // src/bulk-operations/bulkOperationService.server.js
 import prisma from "@acme/db";
-import { redis } from "@acme/redis"; // Import shared Redis client
+import { getClient } from "@acme/redis"; // Import shared Redis client
+const redis = getClient(); // same singleton every import
 
 import {
   // getLogger,

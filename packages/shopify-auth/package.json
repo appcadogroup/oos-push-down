@@ -1,0 +1,17 @@
+{
+  "name": "@acme/shopify-auth",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^11.14.1",
+    "@shopify/shopify-app-session-storage-prisma": "^6.0.9",
+    "axios": "^1.11.0"
+  },
+  "peerDependencies": {
+    "@acme/db": "*"
+  }
+}

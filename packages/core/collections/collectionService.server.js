@@ -1,6 +1,8 @@
 // src/services/collectionService.js
 // import { getLogger } from '@acme/core/server'
-import { redis } from '@acme/redis'; // Import shared Redis client
+import { getClient } from "@acme/redis"; // Import shared Redis client
+const redis = getClient(); // same singleton every import
+
 import prisma from '@acme/db';
 
 // const logger = getLogger('services/collection');

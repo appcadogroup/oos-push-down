@@ -18,8 +18,11 @@ if (
   delete process.env.HOST;
 }
 
+
 const host = new URL(process.env.SHOPIFY_APP_URL || "http://localhost")
   .hostname;
+
+console.log(`Host: ${host}, process.env.SHOPIFY_APP_URL: ${process.env.SHOPIFY_APP_URL}`)
 let hmrConfig;
 
 if (host === "localhost") {
@@ -40,7 +43,7 @@ if (host === "localhost") {
 
 export default defineConfig({
   server: {
-    port: Number(process.env.PORT || 3000),
+    port: Number(process.env.PORT || 3011),
     hmr: hmrConfig,
     fs: {
       // See https://vitejs.dev/config/server-options.html#server-fs-allow for more information

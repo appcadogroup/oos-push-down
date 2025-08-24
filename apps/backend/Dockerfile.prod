@@ -6,6 +6,8 @@ COPY apps/backend/package.json apps/backend/
 COPY packages/db/package.json packages/db/
 COPY packages/redis/package.json packages/redis/
 COPY packages/core/package.json packages/core/
+COPY packages/queue/package.json packages/queue/
+COPY packages/shopify-auth/package.json packages/shopify-auth/
 COPY packages/db/prisma packages/db/prisma
 
 RUN npm install --workspaces
@@ -27,6 +29,8 @@ COPY apps/backend/package.json apps/backend/
 COPY packages/db/package.json packages/db/
 COPY packages/redis/package.json packages/redis/
 COPY packages/core/package.json packages/core/
+COPY packages/queue/package.json packages/queue/
+COPY packages/shopify-auth/package.json packages/shopify-auth/
 COPY packages/db/prisma packages/db/prisma
 RUN npm install --omit=dev --workspaces
 COPY --from=builder /app/apps/backend/dist apps/backend/dist

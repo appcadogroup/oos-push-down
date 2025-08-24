@@ -1,39 +1,3 @@
-# # ---- build ----
-# FROM node:22-alpine AS build
-# WORKDIR /opt
-
-# COPY shared/package*.json shared/
-# COPY backend/package*.json backend/
-
-# WORKDIR /opt/backend
-# RUN npm install --omit=dev
-
-# WORKDIR /opt
-# COPY shared ./shared
-# COPY backend ./backend
-
-# # Generate Prisma Client
-# WORKDIR /opt/backend
-# RUN npx prisma generate --schema ../shared/prisma/schema.prisma
-
-# # Build API
-# RUN npm run build
-
-# # ---- runtime ----
-# FROM node:22-alpine
-# ENV NODE_ENV=production
-
-# # bring both backend and shared so ../shared/... resolves
-# WORKDIR /opt
-# COPY --from=build /opt/shared ./shared
-# COPY --from=build /opt/backend ./backend
-
-# WORKDIR /opt/backend
-# EXPOSE 3012
-# HEALTHCHECK --interval=10s --timeout=3s --retries=30 CMD wget -qO- http://localhost:3012/healthz || exit 1
-# CMD ["npm","run","start"]
-
-
 FROM node:22-alpine
 WORKDIR /app
 
@@ -43,6 +7,8 @@ COPY apps/backend/package.json apps/backend/
 COPY packages/db/package.json packages/db/
 COPY packages/redis/package.json packages/redis/
 COPY packages/core/package.json packages/core/
+COPY packages/queue/package.json packages/queue/
+COPY packages/shopify-auth/package.json packages/shopify-auth/
 
 # copy prisma schema early so postinstall can find it
 COPY packages/db/prisma packages/db/prisma

@@ -11,20 +11,20 @@ api_version = "2025-04"
 
   [[webhooks.subscriptions]]
   topics = [ "app_subscriptions/update", "app/scopes_update", "app/uninstalled" ]
-  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/apps"
+  uri = "https://62f371906a2a.ngrok.app/api/webhooks/apps"
   compliance_topics = [ "customers/data_request", "customers/redact", "shop/redact" ]
 
   [[webhooks.subscriptions]]
   topics = [ "collections/create", "collections/update", "collections/delete" ]
-  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/collections"
+  uri = "https://62f371906a2a.ngrok.app/api/webhooks/collections"
 
   [[webhooks.subscriptions]]
   topics = [ "bulk_operations/finish" ]
-  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/bulk-operations"
+  uri = "https://62f371906a2a.ngrok.app/api/webhooks/bulk-operations"
 
   [[webhooks.subscriptions]]
   topics = [ "products/create", "products/update", "products/delete" ]
-  uri = "https://ffa88afda7c2.ngrok.app/api/webhooks/products"
+  uri = "https://62f371906a2a.ngrok.app/api/webhooks/products"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes

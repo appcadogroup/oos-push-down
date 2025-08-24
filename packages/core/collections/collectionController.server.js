@@ -19,7 +19,8 @@ import {
 import {
   JOB_NAMES,
 } from "../jobs/constants.js";
-import { sortingQueue, bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
+import { bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
+import { removeAutoSortingSchedule, upsertAutoSortingSchedule } from "@acme/queue";
 
 // const logger = getLogger('controller/collection');
 
@@ -110,19 +111,7 @@ export class CollectionController {
       // );
 
       if (this.shop) {
-        await sortingQueue.upsertJobScheduler(
-          this.shop,
-          // Every 1 hour
-          { pattern: "0 * * * *" },
-          {
-            name: "autoSorting",
-            data: { shop: this.shop },
-            opts: {
-              removeOnComplete: 10,
-              removeOnFail: 20,
-            },
-          },
-        );
+        await upsertAutoSortingSchedule(this.shop);
       }
 
       return {
@@ -131,7 +120,7 @@ export class CollectionController {
         updatedCollections: updatedCollections,
       };
     } catch (error) {
-      // logger.error(`Failed to enable collections.`, error);
+      console.error(`Failed to enable collections.`, error);
       throw new Error("Failed to enable collections.");
     }
   }
@@ -182,13 +171,13 @@ export class CollectionController {
             isActive: true,
           });
         if (activeCollectionsCount === 0) {
-          const removeResult = await sortingQueue.removeJobScheduler(this.shop);
-          // logger.debug(
-          //   `Removed auto sorting job scheduler for shop ${this.shop}`,
-          //   {
-          //     removeResult,
-          //   },
-          // );
+          const removeResult = await removeAutoSortingSchedule(this.shop);
+          console.log(
+            `Removed auto sorting job scheduler for shop ${this.shop}`,
+            {
+              removeResult,
+            },
+          );
         } else {
           // logger.debug(
           //   `There are still ${activeCollectionsCount} active collections. Not removing auto sorting job scheduler.`,
@@ -202,7 +191,7 @@ export class CollectionController {
         updatedCollections: updatedCollections,
       };
     } catch (error) {
-      // logger.error(`Failed to disable collections.`, error);
+      console.error(`Failed to disable collections.`, error);
       throw new Error("Failed to disable collections.");
     }
   }
@@ -327,7 +316,6 @@ export class CollectionController {
       );
 
       // logger.info(`✅ Successfully pushed down ${collectionID} collections`);
-
       // logger.debug(`Process hiding for OOS products`, {enableHiding})
       // if (enableHiding) {
       //   for (const OOSItem of OOSItems) {
