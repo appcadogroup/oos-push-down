@@ -6,6 +6,8 @@ COPY apps/worker/package.json apps/worker/
 COPY packages/db/package.json packages/db/
 COPY packages/redis/package.json packages/redis/
 COPY packages/core/package.json packages/core/
+COPY packages/queue/package.json packages/queue/
+COPY packages/shopify-auth/package.json packages/shopify-auth/
 COPY packages/db/prisma packages/db/prisma
 
 RUN npm install --workspaces
