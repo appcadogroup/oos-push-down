@@ -34,9 +34,12 @@ COPY packages/shopify-auth/package.json packages/shopify-auth/
 COPY packages/db/prisma packages/db/prisma
 RUN npm install --omit=dev --workspaces
 COPY --from=builder /app/apps/backend/dist apps/backend/dist
-COPY --from=builder /app/packages/core packages/core
 COPY --from=builder /app/packages/db packages/db
 COPY --from=builder /app/packages/redis packages/redis
+COPY --from=builder /app/packages/core packages/core
+COPY --from=builder /app/packages/queue packages/queue
+COPY --from=builder /app/packages/shopify-auth packages/shopify-auth
+
 EXPOSE 3012
 EXPOSE 9229
 
