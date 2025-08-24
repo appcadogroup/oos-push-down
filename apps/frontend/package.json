@@ -23,7 +23,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@acme/core": "1.0.0",
     "@heroicons/react": "^2.2.0",
     "@material-tailwind/react": "^3.0.0-beta.24",
     "@remix-run/fs-routes": "^2.15.0",
