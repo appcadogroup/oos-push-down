@@ -16,6 +16,7 @@ function wireClient(role, client) {
 
 function makeClient(role) {
   if (REDIS_MODE === "standalone") {
+    console.log(buildStandaloneOpts());
     return wireClient(role, new IORedis(buildStandaloneOpts()));
   }
   if (REDIS_MODE === "sentinel") {
