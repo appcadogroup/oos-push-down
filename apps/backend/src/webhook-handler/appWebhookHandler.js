@@ -22,8 +22,18 @@ export class AppWebhookHandler {
 
     this.subscriptionService = subscriptionService;
     this.merchantService = merchantService;
-    
+
     this.appGraphql = new AppGraphql(admin);
+  }
+
+  cleanup() {
+    // Clear references to help GC
+    this.payload = null;
+    this.admin = null;
+    this.appGraphql = null;
+    // Keep service references since they might be reused
+    // this.subscriptionService = null;
+    // this.merchantService = null;
   }
 
   async handle(topic) {

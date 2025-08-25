@@ -40,6 +40,19 @@ export class ProductWebhookHandler {
     this.collectionGraphql = new CollectionGraphql(admin);
   }
 
+  // ADD THIS METHOD to your existing class
+  cleanup() {
+    // Clear references to help GC
+    this.payload = null;
+    this.admin = null;
+    this.productGraphql = null;
+    this.collectionGraphql = null;
+    // Keep service references since they might be reused
+    // this.productService = null;
+    // this.merchantService = null;
+    // this.subscriptionController = null;
+  }
+
   async handle(topic) {
     switch (topic) {
       case "PRODUCTS_UPDATE":

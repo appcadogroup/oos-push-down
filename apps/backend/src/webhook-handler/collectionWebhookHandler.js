@@ -29,7 +29,18 @@ export class CollectionWebhookHandler {
     this.collectionGraphql = new CollectionGraphql(admin);
     this.collectionController = new CollectionController(admin, shop);
     this.productGraphql = new ProductGraphql(admin);
+  }
 
+  cleanup() {
+    // Clear references to help GC
+    this.payload = null;
+    this.shop = null;
+    this.admin = null;
+    this.collectionService = null;
+    this.merchantService = null;
+    this.collectionGraphql = null;
+    this.collectionController = null;
+    this.productGraphql = null;
   }
 
   async handle(topic) {

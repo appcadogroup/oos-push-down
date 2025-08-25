@@ -43,6 +43,20 @@ export class BulkOperationWebhookHandler {
     this.productGraphql = new ProductGraphql(admin);
   }
 
+  cleanup() {
+    // Clear references to help GC
+    this.payload = null;
+    this.admin = null;
+    this.collectionGraphql = null;
+    this.collectionController = null;
+    this.bulkOperationService = null;
+    this.bulkOperationGraphql = null;
+    this.productGraphql = null;
+    // Keep service references since they might be reused
+    // this.collectionService = null;
+    // this.merchantService = null;
+  }
+
   async handle(topic) {
     switch (topic) {
       case "BULK_OPERATIONS_FINISH":
