@@ -20,7 +20,10 @@ import {
   enqueueHideProduct,
 } from "@acme/queue";
 
-// const logger = getLogger('webhooks/products');
+// Create singletons for stateless services
+const productService = new ProductService();
+const merchantService = new MerchantService();
+const subscriptionController = new SubscriptionController();
 
 export class ProductWebhookHandler {
   constructor({ payload, shop, admin }) {
@@ -28,11 +31,13 @@ export class ProductWebhookHandler {
     this.shop = shop;
     this.admin = admin;
 
-    this.productService = new ProductService();
-    this.merchantService = new MerchantService();
+    // Reuse singleton services
+    this.productService = productService;
+    this.merchantService = merchantService;
+    this.subscriptionController = subscriptionController;
+
     this.productGraphql = new ProductGraphql(admin);
     this.collectionGraphql = new CollectionGraphql(admin);
-    this.subscriptionController = new SubscriptionController();
   }
 
   async handle(topic) {

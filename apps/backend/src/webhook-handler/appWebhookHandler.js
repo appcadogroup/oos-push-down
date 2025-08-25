@@ -8,6 +8,10 @@ import {
   retrieveAdminLegacyResourceID,
 } from "@acme/core";
 
+// Create Singleton for stateless services
+const subscriptionService = new SubscriptionService();
+const merchantService = new MerchantService();
+
 export class AppWebhookHandler {
   constructor({ payload, shop, admin, webhookId, session = null }) {
     this.payload = payload;
@@ -16,8 +20,9 @@ export class AppWebhookHandler {
     this.session = session;
     this.webhookId = webhookId;
 
-    this.subscriptionService = new SubscriptionService();
-    this.merchantService = new MerchantService();
+    this.subscriptionService = subscriptionService;
+    this.merchantService = merchantService;
+    
     this.appGraphql = new AppGraphql(admin);
   }
 

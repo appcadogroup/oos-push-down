@@ -12,7 +12,10 @@ import prisma from "@acme/db";
 import { enqueueBulkOperationForPushDown } from "@acme/queue";
 import { CollectionSorting } from "@prisma/client";
 
-// const logger = getLogger('webhooks/collections');
+
+// Create singletons for stateless services
+const collectionService = new CollectionService();
+const merchantService = new MerchantService();
 
 export class CollectionWebhookHandler {
   constructor({ payload, shop, admin }) {
@@ -20,11 +23,13 @@ export class CollectionWebhookHandler {
     this.shop = shop;
     this.admin = admin;
 
+    this.collectionService = collectionService;
+    this.merchantService = merchantService;
+
     this.collectionGraphql = new CollectionGraphql(admin);
     this.collectionController = new CollectionController(admin, shop);
-    this.collectionService = new CollectionService();
     this.productGraphql = new ProductGraphql(admin);
-    this.merchantService = new MerchantService();
+
   }
 
   async handle(topic) {

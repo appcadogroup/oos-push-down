@@ -22,19 +22,25 @@ import readline from "node:readline";
 // import { createGunzip } from "node:zlib";
 // import { setImmediate as yieldNow } from "node:timers/promises";
 import { PassThrough } from "node:stream";
+
+// Create singleton for stateless services
+const collectionService = new CollectionService();
+const merchantService = new MerchantService();
+
 export class BulkOperationWebhookHandler {
   constructor({ payload, shop, admin }) {
     this.payload = payload;
     this.shop = shop;
     this.admin = admin;
 
+    this.collectionService = collectionService;
+    this.merchantService = merchantService;
+
     this.collectionGraphql = new CollectionGraphql(admin);
     this.collectionController = new CollectionController(admin, shop);
     this.bulkOperationService = new BulkOperationService(admin);
-    this.bulkOperationGrpahql = new BulkOperationGraphql(admin);
-    this.collectionService = new CollectionService();
+    this.bulkOperationGraphql = new BulkOperationGraphql(admin);
     this.productGraphql = new ProductGraphql(admin);
-    this.merchantService = new MerchantService();
   }
 
   async handle(topic) {
@@ -69,7 +75,7 @@ export class BulkOperationWebhookHandler {
     }
 
     const { bulkOperation } =
-      await this.bulkOperationGrpahql.fetchBulkOperationStatus(
+      await this.bulkOperationGraphql.fetchBulkOperationStatus(
         admin_graphql_api_id,
       );
 
