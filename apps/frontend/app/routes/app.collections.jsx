@@ -58,6 +58,7 @@ import Switch from "../components/Switch";
 // Utilities and config
 import prisma from "@acme/db";
 import { useDebounce } from "../lib/useDebounce";
+import { enqueueBulkOperationForPushDownMany } from "@acme/queue";
 
 // const logger = getLogger("frontend");
 
@@ -223,13 +224,7 @@ export const action = async ({ request }) => {
 
       switch (enableCollection) {
         case "1":
-          for (const collectionID of collectionIDS) {
-            await collectionController.schedulePushDownJob(
-              collectionID,
-              shop,
-              1000, // 0 means no delay
-            );
-          }
+          await enqueueBulkOperationForPushDownMany(shop, collectionIDS, { ttl: 1000 });
           return await collectionController.enableCollections(collectionIDS);
         default:
           return await collectionController.disableCollections(collectionIDS);

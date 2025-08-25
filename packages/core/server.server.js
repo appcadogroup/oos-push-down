@@ -7,4 +7,3 @@ export * from './merchant/server.js';
 export * from './locations/server.js';
 export * from './products/server.js';
 export * from './subscription/server.js';
-export * from './jobs/server.server.js'

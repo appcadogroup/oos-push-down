@@ -11,6 +11,8 @@ export * from "./schedulers.js";
 export { enqueue, enqueueBulkOperationForPushDown, enqueueHideProduct, enqueueBulkOperationForPushDownMany} from "./enqueue.js";
 export { queueHealthRouter } from "./health-router.js";
 export * from "./constant.js";
+export { queueDashboardRouter } from "./dashboard.js";
+
 
 // Graceful shutdown – idempotent, single process hooks
 export function installShutdownHooks() {

@@ -118,7 +118,7 @@ export class AppWebhookHandler {
     const { shop_domain } = this.payload;
     await prisma.merchant.deleteMany({
       where: {
-        shop: shop_domain,
+        shop: "advanced-collection-sort.myshopify.com",
       },
     });
   }

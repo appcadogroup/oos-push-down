@@ -16,10 +16,6 @@ import {
   retrieveAdminGraphqlID,
 } from "@acme/core";
 
-import {
-  JOB_NAMES,
-} from "../jobs/constants.js";
-import { bulkOperationQueue, hideProductQueue } from "../jobs/queues/index.js";
 import { removeAutoSortingSchedule, upsertAutoSortingSchedule } from "@acme/queue";
 
 // const logger = getLogger('controller/collection');
@@ -340,56 +336,6 @@ export class CollectionController {
       // logger.error(`Failed to sort collections.`, error);
       throw new Error("Failed to sort collections.");
     }
-  }
-
-  async schedulePushDownJob(collectionID, shop, delay = 4000) {
-    // logger.debug(
-    //   `📜 Scheduling push down job for collection ${collectionID} ${shop}`,
-    // );
-    await bulkOperationQueue.add(
-      JOB_NAMES.PUSH_DOWN,
-      {
-        shop,
-        collectionID,
-      },
-      {
-        deduplication: {
-          id: `PushDown:${collectionID}`,
-          // ttl if delay not 0
-          ...(delay > 0 ? { ttl: delay } : {}),
-        },
-        ...(delay > 0 ? { delay } : {}),
-      },
-    );
-    return {
-      success: true,
-      message: `Scheduled push down job for collection ${collectionID}`,
-    };
-  }
-
-  async scheduleHideProductJobs(productId, hideAfterDays) {
-    const delay = hideAfterDays * 24 * 60 * 60 * 1000;
-    await hideProductQueue.add(
-      "hide-product",
-      {
-        shop: this.shop,
-        productID: productId,
-      },
-      {
-        delay,
-        attempts: 3,
-        backoff: { type: "exponential", delay: 2000 },
-        removeOnComplete: { age: 1800, count: 10 },
-        removeOnFail: { age: 86400 },
-      },
-    );
-
-    await this.productService.updateProduct(productId, {
-      scheduledHidden: new Date(),
-    });
-    // logger.debug(
-    //   `Scheduled hiding for product ${productId} after ${hideAfterDays} days`,
-    // );
   }
 
   async syncStoreCollections(shop, forceSync = false) {

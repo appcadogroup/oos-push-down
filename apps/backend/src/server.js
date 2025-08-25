@@ -6,6 +6,7 @@ BigInt.prototype.toJSON = function () {
 import dotenv from "dotenv";
 dotenv.config();
 import app from './app.js';
+import "./ops/memory-logger.js"
 
 const PORT = process.env.EXPRESS_PORT || 3012;
 

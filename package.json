@@ -5,7 +5,7 @@
   "type": "module",
   "workspaces": [
     "apps/*",
-    "apps/frontend/extensions/*", 
+    "apps/frontend/extensions/*",
     "packages/*"
   ],
   "scripts": {
@@ -22,5 +22,10 @@
   "overrides": {
     "@shopify/shopify-api": "^11.14.1",
     "@shopify/shopify-app-session-storage-prisma": "^6.0.9"
+  },
+  "dependencies": {
+    "@bull-board/api": "^6.12.5",
+    "@bull-board/express": "^6.12.5",
+    "bull": "^4.16.5"
   }
 }

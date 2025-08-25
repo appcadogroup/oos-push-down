@@ -3,20 +3,14 @@ import {
   startWorker,
   queueHealthRouter,
   installShutdownHooks,
-  JOB_NAMES
+  JOB_NAMES,
+  QUEUES
 } from "@acme/queue";
 
 import { autoSortingProcessor } from "./processors/autoSortingProcessor.js";
 import { hideProductProcessor } from "./processors/hideProductProcessor.js";
 import { pushDownProcessor } from "./processors/pushDownProcessor.js";
 
-
-// Declare queue names centrally
-export const QUEUES = {
-  AUTO_SORTING: "auto-sorting",
-  BULK_OPERATION: "bulk-operation",
-  HIDE_PRODUCT: "hide-product"
-};
 
 // Start workers ONCE at process boot.
 // Do not create workers inside request handlers.
