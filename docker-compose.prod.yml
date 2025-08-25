@@ -26,7 +26,6 @@ services:
       NODE_OPTIONS: >-
         --max-old-space-size=256
         --inspect=0.0.0.0:9229
-        --trace-gc
     restart: unless-stopped
     ports:
       - "127.0.0.1:9229:9229"   # host binds ONLY on localhost
