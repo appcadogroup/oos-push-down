@@ -28,7 +28,6 @@
     "@shopify/shopify-api": "^11.14.1",
     "@shopify/shopify-app-session-storage-prisma": "^6.0.9",
     "axios": "^1.11.0",
-    "browser-or-node": "^3.0.0",
     "bullmq": "^5.56.10",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",

@@ -1,5 +1,5 @@
 # --- builder
-FROM node:22-bullseye AS builder
+FROM node:22-alpine AS builder
 WORKDIR /app
 COPY package.json ./
 COPY apps/backend/package.json apps/backend/
@@ -39,6 +39,11 @@ COPY --from=builder /app/packages/redis packages/redis
 COPY --from=builder /app/packages/core packages/core
 COPY --from=builder /app/packages/queue packages/queue
 COPY --from=builder /app/packages/shopify-auth packages/shopify-auth
+
+# Jemalloc
+RUN apk add --no-cache --virtual .build-deps gcc musl-dev && \
+    npm install jemalloc && \
+    apk del .build-deps
 
 EXPOSE 3012
 EXPOSE 9229
