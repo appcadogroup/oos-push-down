@@ -40,12 +40,6 @@ COPY --from=builder /app/packages/core packages/core
 COPY --from=builder /app/packages/queue packages/queue
 COPY --from=builder /app/packages/shopify-auth packages/shopify-auth
 
-# Jemalloc
-RUN apk add --no-cache jemalloc
-
-# preload the correct .so (on Alpine it's here)
-ENV LD_PRELOAD=/usr/lib/libjemalloc.so.2
-
 # Encourage glibc to return freed memory to the OS
 ENV MALLOC_TRIM_THRESHOLD_=131072 
 ENV MALLOC_ARENA_MAX=2              
