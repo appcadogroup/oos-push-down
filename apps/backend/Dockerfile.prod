@@ -40,10 +40,9 @@ COPY --from=builder /app/packages/core packages/core
 COPY --from=builder /app/packages/queue packages/queue
 COPY --from=builder /app/packages/shopify-auth packages/shopify-auth
 
-# Jemalloc
-RUN apk add --no-cache --virtual .build-deps gcc musl-dev && \
-    npm install jemalloc && \
-    apk del .build-deps
+RUN apt-get update
+RUN apt-get install libjemalloc-dev
+ENV LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libjemalloc.so" 
 
 EXPOSE 3012
 EXPOSE 9229
