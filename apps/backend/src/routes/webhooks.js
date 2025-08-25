@@ -54,6 +54,7 @@ router.post(
   express.text({ type: "*/*" }),
   verifyShopifyWebhook,
   async (req, res) => {
+    let handler = null;
     const payload = req.body;
     const { topic, webhookId, domain } = req.webhooks;
     try {
@@ -61,7 +62,7 @@ router.post(
       if (!admin) {
         return res.status(200).end();
       }
-      const handler = new CollectionWebhookHandler({
+      handler = new CollectionWebhookHandler({
         payload,
         shop: domain,
         admin,
@@ -78,6 +79,15 @@ router.post(
         payload: payload,
       });
       return res.status(500).end();
+    } finally {
+      // Explicit cleanup
+      if (handler) {
+        handler.cleanup();
+      }
+      handler = null;
+
+      // Clear request body reference
+      req.body = null;
     }
   }
 );
