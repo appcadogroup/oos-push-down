@@ -40,9 +40,11 @@ COPY --from=builder /app/packages/core packages/core
 COPY --from=builder /app/packages/queue packages/queue
 COPY --from=builder /app/packages/shopify-auth packages/shopify-auth
 
-RUN apt-get update
-RUN apt-get install libjemalloc-dev
-ENV LD_PRELOAD="/usr/lib/x86_64-linux-gnu/libjemalloc.so" 
+# Jemalloc
+RUN apk add --no-cache jemalloc
+
+# preload the correct .so (on Alpine it's here)
+ENV LD_PRELOAD=/usr/lib/libjemalloc.so.2
 
 EXPOSE 3012
 EXPOSE 9229
