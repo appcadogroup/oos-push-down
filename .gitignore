@@ -16,6 +16,9 @@ database.sqlite
 
 docker-compose.dev.yml
 
+bullmqCleaner.js
+bullmqDashboard.js
+
 
 /extensions/*/dist
 
