@@ -13,6 +13,7 @@ database.sqlite
 
 .env
 .env.*
+express/
 
 docker-compose.dev.yml
 
